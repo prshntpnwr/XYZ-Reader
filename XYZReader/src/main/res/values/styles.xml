@@ -24,7 +24,8 @@
     <style name="Theme.Bacon.Detail">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
-    
+
+    <!--base app theme-->
     <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
@@ -33,5 +34,11 @@
 
     <style name="AppTheme.Main" parent="AppTheme"/>
     <style name="AppTheme.Detail" parent="AppTheme"/>
+
+    <!--toolbar theme-->
+    <style name="ToolbarTheme" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="popupTheme">@style/Theme.AppCompat.Light</item>
+    </style>
 
 </resources>
