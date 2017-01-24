@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/res/merged/debug/menu/main.xml",
-        "source": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/src/main/res/menu/main.xml"
-    },
-    {
         "merged": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/merged/debug/menu/main.xml",
         "source": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/menu/main.xml"
     }

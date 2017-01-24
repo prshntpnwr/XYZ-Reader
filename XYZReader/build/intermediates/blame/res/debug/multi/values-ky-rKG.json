@@ -1,314 +1,5 @@
 [
     {
-        "outputFile": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/res/merged/debug/values-ky-rKG/values-ky-rKG.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 103,
-                    "endOffset": 154
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ky-rKG/values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 280,
-                        "endColumn": 103,
-                        "endOffset": 379
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 159,
-                    "endColumn": 107,
-                    "endOffset": 262
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ky-rKG/values.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 384,
-                        "endColumn": 107,
-                        "endOffset": 487
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 267,
-                    "endColumn": 122,
-                    "endOffset": 385
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ky-rKG/values.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 492,
-                        "endColumn": 122,
-                        "endOffset": 610
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 390,
-                    "endColumn": 94,
-                    "endOffset": 480
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ky-rKG/values.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 615,
-                        "endColumn": 94,
-                        "endOffset": 705
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 485,
-                    "endColumn": 118,
-                    "endOffset": 599
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ky-rKG/values.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 710,
-                        "endColumn": 118,
-                        "endOffset": 824
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 604,
-                    "endColumn": 83,
-                    "endOffset": 683
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ky-rKG/values.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 829,
-                        "endColumn": 83,
-                        "endOffset": 908
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 688,
-                    "endColumn": 106,
-                    "endOffset": 790
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ky-rKG/values.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 913,
-                        "endColumn": 106,
-                        "endOffset": 1015
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 795,
-                    "endColumn": 116,
-                    "endOffset": 907
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ky-rKG/values.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1020,
-                        "endColumn": 116,
-                        "endOffset": 1132
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 912,
-                    "endColumn": 109,
-                    "endOffset": 1017
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ky-rKG/values.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1137,
-                        "endColumn": 109,
-                        "endOffset": 1242
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 1022,
-                    "endColumn": 106,
-                    "endOffset": 1124
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ky-rKG/values.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1247,
-                        "endColumn": 106,
-                        "endOffset": 1349
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1129,
-                    "endColumn": 97,
-                    "endOffset": 1222
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ky-rKG/values.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1354,
-                        "endColumn": 97,
-                        "endOffset": 1447
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1227,
-                    "endColumn": 105,
-                    "endOffset": 1328
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ky-rKG/values.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1452,
-                        "endColumn": 105,
-                        "endOffset": 1553
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1333,
-                    "endColumn": 106,
-                    "endOffset": 1435
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ky-rKG/values.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1558,
-                        "endColumn": 106,
-                        "endOffset": 1660
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1440,
-                    "endColumn": 100,
-                    "endOffset": 1536
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ky-rKG/values.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1665,
-                        "endColumn": 100,
-                        "endOffset": 1761
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1541,
-                    "endColumn": 123,
-                    "endOffset": 1660
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ky-rKG/values.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1766,
-                        "endColumn": 123,
-                        "endOffset": 1885
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1665,
-                    "endColumn": 102,
-                    "endOffset": 1763
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ky-rKG/values.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1890,
-                        "endColumn": 102,
-                        "endOffset": 1988
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/merged/debug/values-ky-rKG/values-ky-rKG.xml",
         "map": [
             {
@@ -320,13 +11,13 @@
                     "endOffset": 154
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 280,
+                        "startOffset": 233,
                         "endColumn": 103,
-                        "endOffset": 379
+                        "endOffset": 332
                     }
                 }
             },
@@ -339,13 +30,13 @@
                     "endOffset": 262
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 384,
+                        "startOffset": 337,
                         "endColumn": 107,
-                        "endOffset": 487
+                        "endOffset": 440
                     }
                 }
             },
@@ -358,13 +49,13 @@
                     "endOffset": 385
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 492,
+                        "startOffset": 445,
                         "endColumn": 122,
-                        "endOffset": 610
+                        "endOffset": 563
                     }
                 }
             },
@@ -377,13 +68,13 @@
                     "endOffset": 480
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 615,
+                        "startOffset": 568,
                         "endColumn": 94,
-                        "endOffset": 705
+                        "endOffset": 658
                     }
                 }
             },
@@ -396,13 +87,13 @@
                     "endOffset": 599
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 710,
+                        "startOffset": 663,
                         "endColumn": 118,
-                        "endOffset": 824
+                        "endOffset": 777
                     }
                 }
             },
@@ -415,13 +106,13 @@
                     "endOffset": 683
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 829,
+                        "startOffset": 782,
                         "endColumn": 83,
-                        "endOffset": 908
+                        "endOffset": 861
                     }
                 }
             },
@@ -434,13 +125,13 @@
                     "endOffset": 790
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 913,
+                        "startOffset": 866,
                         "endColumn": 106,
-                        "endOffset": 1015
+                        "endOffset": 968
                     }
                 }
             },
@@ -453,13 +144,13 @@
                     "endOffset": 907
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1020,
+                        "startOffset": 973,
                         "endColumn": 116,
-                        "endOffset": 1132
+                        "endOffset": 1085
                     }
                 }
             },
@@ -468,17 +159,17 @@
                     "startLine": 10,
                     "startColumn": 4,
                     "startOffset": 912,
-                    "endColumn": 80,
-                    "endOffset": 988
+                    "endColumn": 77,
+                    "endOffset": 985
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1137,
-                        "endColumn": 80,
-                        "endOffset": 1213
+                        "startOffset": 1090,
+                        "endColumn": 77,
+                        "endOffset": 1163
                     }
                 }
             },
@@ -486,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 993,
-                    "endColumn": 109,
-                    "endOffset": 1098
+                    "startOffset": 990,
+                    "endColumn": 78,
+                    "endOffset": 1064
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1218,
-                        "endColumn": 109,
-                        "endOffset": 1323
+                        "startOffset": 1168,
+                        "endColumn": 78,
+                        "endOffset": 1242
                     }
                 }
             },
@@ -505,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1103,
-                    "endColumn": 106,
-                    "endOffset": 1205
+                    "startOffset": 1069,
+                    "endColumn": 80,
+                    "endOffset": 1145
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1328,
-                        "endColumn": 106,
-                        "endOffset": 1430
+                        "startOffset": 1247,
+                        "endColumn": 80,
+                        "endOffset": 1323
                     }
                 }
             },
@@ -524,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1210,
-                    "endColumn": 97,
-                    "endOffset": 1303
+                    "startOffset": 1150,
+                    "endColumn": 109,
+                    "endOffset": 1255
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1435,
-                        "endColumn": 97,
-                        "endOffset": 1528
+                        "startOffset": 1328,
+                        "endColumn": 109,
+                        "endOffset": 1433
                     }
                 }
             },
@@ -543,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1308,
-                    "endColumn": 105,
-                    "endOffset": 1409
+                    "startOffset": 1260,
+                    "endColumn": 106,
+                    "endOffset": 1362
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1533,
-                        "endColumn": 105,
-                        "endOffset": 1634
+                        "startOffset": 1438,
+                        "endColumn": 106,
+                        "endOffset": 1540
                     }
                 }
             },
@@ -562,18 +253,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1414,
-                    "endColumn": 106,
-                    "endOffset": 1516
+                    "startOffset": 1367,
+                    "endColumn": 97,
+                    "endOffset": 1460
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1639,
-                        "endColumn": 106,
-                        "endOffset": 1741
+                        "startOffset": 1545,
+                        "endColumn": 97,
+                        "endOffset": 1638
                     }
                 }
             },
@@ -581,18 +272,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1521,
-                    "endColumn": 100,
-                    "endOffset": 1617
+                    "startOffset": 1465,
+                    "endColumn": 105,
+                    "endOffset": 1566
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1746,
-                        "endColumn": 100,
-                        "endOffset": 1842
+                        "startOffset": 1643,
+                        "endColumn": 105,
+                        "endOffset": 1744
                     }
                 }
             },
@@ -600,18 +291,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1622,
-                    "endColumn": 123,
-                    "endOffset": 1741
+                    "startOffset": 1571,
+                    "endColumn": 106,
+                    "endOffset": 1673
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1847,
-                        "endColumn": 123,
-                        "endOffset": 1966
+                        "startOffset": 1749,
+                        "endColumn": 106,
+                        "endOffset": 1851
                     }
                 }
             },
@@ -619,18 +310,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1746,
-                    "endColumn": 102,
-                    "endOffset": 1844
+                    "startOffset": 1678,
+                    "endColumn": 100,
+                    "endOffset": 1774
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 1971,
-                        "endColumn": 102,
-                        "endOffset": 2069
+                        "startOffset": 1856,
+                        "endColumn": 100,
+                        "endOffset": 1952
                     }
                 }
             },
@@ -638,18 +329,56 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1849,
-                    "endColumn": 100,
-                    "endOffset": 1945
+                    "startOffset": 1779,
+                    "endColumn": 123,
+                    "endOffset": 1898
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 2074,
+                        "startOffset": 1957,
+                        "endColumn": 123,
+                        "endOffset": 2076
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1903,
+                    "endColumn": 102,
+                    "endOffset": 2001
+                },
+                "from": {
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2081,
+                        "endColumn": 102,
+                        "endOffset": 2179
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2006,
+                    "endColumn": 100,
+                    "endOffset": 2102
+                },
+                "from": {
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ky-rKG/values-ky-rKG.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2184,
                         "endColumn": 100,
-                        "endOffset": 2170
+                        "endOffset": 2280
                     }
                 }
             }
