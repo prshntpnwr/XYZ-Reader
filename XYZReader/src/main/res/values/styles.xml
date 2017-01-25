@@ -33,12 +33,19 @@
     </style>
 
     <style name="AppTheme.Main" parent="AppTheme"/>
-    <style name="AppTheme.Detail" parent="AppTheme"/>
+
+    <style name="AppTheme.Detail" parent="AppTheme">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
 
     <!--toolbar theme-->
     <style name="ToolbarTheme" parent="Widget.AppCompat.Toolbar">
         <item name="android:background">?attr/colorPrimary</item>
         <item name="popupTheme">@style/Theme.AppCompat.Light</item>
+    </style>
+
+    <style name="ExpandedTitleTextAppearance" parent="@android:style/TextAppearance.Large">
+        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>
