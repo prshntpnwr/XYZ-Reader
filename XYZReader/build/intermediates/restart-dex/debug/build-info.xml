@@ -4,18 +4,18 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="89178597061551"
+    timestamp="93002796959983"
     token="3717211199710554337" >
 
     <task
         name="javac"
-        duration="140" />
+        duration="286" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="19" />
+        duration="27" />
     <task
         name="verifier"
         duration="2" />
@@ -29,7 +29,7 @@
             location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/outputs/apk/XYZReader-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="89178597061551" >
+    <build timestamp="93002796959983" >
         <artifact
             location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
             type="DEX" />
