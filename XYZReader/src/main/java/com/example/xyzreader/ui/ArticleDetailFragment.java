@@ -225,9 +225,7 @@ public class ArticleDetailFragment extends Fragment implements
                                 mPhotoView.setImageBitmap(imageContainer.getBitmap());
                                 mRootView.findViewById(R.id.meta_bar)
                                         .setBackgroundColor(mMutedColor);
-                                if (collapsingToolbarLayout != null) {
-                                    collapsingToolbarLayout.setStatusBarScrimColor(mMutedColor);
-                                }
+
                                 updateStatusBar();
                             }
                         }
