@@ -132,7 +132,7 @@ public class ArticleDetailFragment extends Fragment implements
         mScrollView = (NestedScrollView) mRootView.findViewById(R.id.scrollview);
         collapsingToolbarLayout = (CollapsingToolbarLayout) mRootView.findViewById(R.id.toolbar_layout);
 
-        toolbar = (Toolbar) mRootView.findViewById(R.id.toolbar);
+        toolbar = (Toolbar) mRootView.findViewById(R.id.detail_toolbar);
 
         /*
         mScrollView.setCallbacks(new ObservableScrollView.Callbacks() {
@@ -236,7 +236,6 @@ public class ArticleDetailFragment extends Fragment implements
                                 mPhotoView.setImageBitmap(imageContainer.getBitmap());
                                 mRootView.findViewById(R.id.meta_bar)
                                         .setBackgroundColor(mMutedColor);
-
                                 updateStatusBar();
                             }
                         }
