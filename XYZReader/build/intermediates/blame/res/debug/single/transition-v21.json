@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/merged/debug/transition-v21/detail_window_enter_transition.xml",
+        "source": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/transition-v21/detail_window_enter_transition.xml"
+    },
+    {
         "merged": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/merged/debug/transition-v21/reenter_transition.xml",
         "source": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/transition-v21/reenter_transition.xml"
     },

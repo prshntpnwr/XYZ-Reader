@@ -9,4 +9,10 @@
             @transition/reenter_transition
         </item>
     </style>
+
+    <style name="AppTheme.Detail">
+        <item name="android:windowEnterTransition">
+            @transition/detail_window_enter_transition
+        </item>
+    </style>
 </resources>

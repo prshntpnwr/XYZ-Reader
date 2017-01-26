@@ -83,7 +83,7 @@ ADDED from /home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZR
 	android:parentActivityName
 		ADDED from /home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/AndroidManifest.xml:29:13-65
 	android:theme
-		ADDED from /home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/AndroidManifest.xml:30:13-56
+		ADDED from /home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/AndroidManifest.xml:30:13-51
 	android:name
 		ADDED from /home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/AndroidManifest.xml:28:13-53
 intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
