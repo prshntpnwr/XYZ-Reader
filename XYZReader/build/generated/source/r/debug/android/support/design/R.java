@@ -490,9 +490,9 @@ public final class R {
 		public static final int highlight_alpha_material_dark = 0x7f08007d;
 		public static final int highlight_alpha_material_light = 0x7f08007e;
 		public static final int item_touch_helper_max_drag_scroll_per_frame = 0x7f08007f;
-		public static final int notification_large_icon_height = 0x7f080086;
-		public static final int notification_large_icon_width = 0x7f080087;
-		public static final int notification_subtext_size = 0x7f080088;
+		public static final int notification_large_icon_height = 0x7f080082;
+		public static final int notification_large_icon_width = 0x7f080083;
+		public static final int notification_subtext_size = 0x7f080084;
 	}
 	public static final class drawable {
 		public static final int abc_ab_share_pack_mtrl_alpha = 0x7f020000;
@@ -701,7 +701,7 @@ public final class R {
 		public static final int abc_max_action_buttons = 0x7f0a0000;
 		public static final int cancel_button_image_alpha = 0x7f0a0005;
 		public static final int design_snackbar_text_max_lines = 0x7f0a0001;
-		public static final int status_bar_notification_info_maxnum = 0x7f0a0007;
+		public static final int status_bar_notification_info_maxnum = 0x7f0a0006;
 	}
 	public static final class layout {
 		public static final int abc_action_bar_title_item = 0x7f040000;

@@ -2271,15 +2271,11 @@ containing a value of this type.
         public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f08007f;
         public static final int list_side_margin=0x7f080025;
         public static final int list_toolbar_side_margin=0x7f080026;
-        public static final int material_component_cards_left_and_right_padding=0x7f080080;
-        public static final int material_component_cards_padding_from_edge_of_screen_to_card=0x7f080081;
-        public static final int material_component_cards_space_between_cards=0x7f080082;
-        public static final int material_component_cards_top_and_bottom_padding=0x7f080083;
-        public static final int material_layout_app_bar_height=0x7f080084;
-        public static final int max_width=0x7f080085;
-        public static final int notification_large_icon_height=0x7f080086;
-        public static final int notification_large_icon_width=0x7f080087;
-        public static final int notification_subtext_size=0x7f080088;
+        public static final int material_layout_app_bar_height=0x7f080080;
+        public static final int max_width=0x7f080081;
+        public static final int notification_large_icon_height=0x7f080082;
+        public static final int notification_large_icon_width=0x7f080083;
+        public static final int notification_subtext_size=0x7f080084;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
@@ -2520,9 +2516,8 @@ containing a value of this type.
         public static final int abc_max_action_buttons=0x7f0a0000;
         public static final int cancel_button_image_alpha=0x7f0a0005;
         public static final int design_snackbar_text_max_lines=0x7f0a0001;
-        public static final int grid_column_count=0x7f0a0006;
         public static final int list_column_count=0x7f0a0002;
-        public static final int status_bar_notification_info_maxnum=0x7f0a0007;
+        public static final int status_bar_notification_info_maxnum=0x7f0a0006;
     }
     public static final class layout {
         public static final int abc_action_bar_title_item=0x7f040000;
