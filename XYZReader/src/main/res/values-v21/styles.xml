@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="AppTheme.Main">
+    <style name="AppTheme.Main" parent="@style/AppTheme">
+        <item name="android:windowContentTransitions">true</item>
         <item name="android:windowExitTransition">
                 @transition/exit_transition
         </item>
@@ -10,7 +11,8 @@
         </item>
     </style>
 
-    <style name="AppTheme.Detail">
+    <style name="AppTheme.Detail" parent="@style/AppTheme">
+        <item name="android:windowContentTransitions">true</item>
         <item name="android:windowEnterTransition">
             @transition/detail_window_enter_transition
         </item>

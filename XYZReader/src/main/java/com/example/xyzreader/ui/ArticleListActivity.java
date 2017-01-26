@@ -177,6 +177,12 @@ public class ArticleListActivity extends ActionBarActivity implements
                                 (ArticleListActivity.this).toBundle();
                         startActivity(intent, bundle);
 
+                    /*ActivityOptionsCompat activityOptions =
+                            ActivityOptionsCompat.makeSceneTransitionAnimation(ArticleListActivity.this,
+                                    new Pair<View, String>(vh.thumbnailView, getString(R.string.transition_photo)));
+                    ActivityCompat.startActivity(ArticleListActivity.this, intent, activityOptions.toBundle());*/
+
+
                 }
             });
             return vh;
