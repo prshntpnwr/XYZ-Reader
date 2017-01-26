@@ -21,10 +21,13 @@ import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.format.DateUtils;
 import android.text.method.LinkMovementMethod;
+import android.transition.Slide;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -92,7 +95,6 @@ public class ArticleDetailFragment extends Fragment implements
         mStatusBarFullOpacityBottom = getResources().getDimensionPixelSize(
                 R.dimen.detail_card_top_margin);
         setHasOptionsMenu(true);
-
     }
 
     public ArticleDetailActivity getActivityCast() {
@@ -184,6 +186,7 @@ public class ArticleDetailFragment extends Fragment implements
         }
         mStatusBarColorDrawable.setColor(color);
         collapsingToolbarLayout.setBackground(mStatusBarColorDrawable);
+        //coordinatorLayout.setBackground(mStatusBarColorDrawable);
     }
 
     static float progress(float v, float min, float max) {

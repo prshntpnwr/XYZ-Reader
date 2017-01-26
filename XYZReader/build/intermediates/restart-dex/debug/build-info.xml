@@ -4,35 +4,48 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="124257278401377"
-    token="3717211199710554337" >
+    timestamp="128697373425941"
+    token="3717211199710554337"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="232" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="708" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="21" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
     <artifact
-        location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
+        location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="123782739822309" >
+    <build timestamp="127404292847078" >
         <artifact
             location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/outputs/apk/XYZReader-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="124257278401377" >
+    <build
+        timestamp="128128076141061"
+        verifier="COMPATIBLE" >
         <artifact
             location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/resources-debug.ap_"
             type="RESOURCES" />
+        <artifact
+            location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/builds/debug/128128076141061/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="128697373425941"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
