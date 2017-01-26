@@ -2015,7 +2015,14 @@
                     "endOffset": 34533
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values/dimens.xml"
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 415,
+                        "endColumn": 46,
+                        "endOffset": 457
+                    }
                 }
             },
             {
@@ -2411,14 +2418,7 @@
                     "endOffset": 36520
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 600,
-                        "endColumn": 60,
-                        "endOffset": 656
-                    }
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values/dimens.xml"
                 }
             },
             {
@@ -2490,14 +2490,7 @@
                     "endOffset": 36878
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 538,
-                        "endColumn": 61,
-                        "endOffset": 595
-                    }
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values/dimens.xml"
                 }
             },
             {
