@@ -42,7 +42,8 @@
                         android:layout_height="match_parent"
                         android:fitsSystemWindows="true"
                         android:scaleType="fitXY"
-                        tools:ignore="ContentDescription" />
+                        tools:ignore="ContentDescription"
+                        app:layout_collapseMode="pin"/>
 
                     <View
                         android:layout_width="match_parent"
@@ -126,7 +127,7 @@
 
     </android.support.v4.widget.NestedScrollView>
 
-    <ImageButton android:id="@+id/share_fab"
+   <!-- <ImageButton android:id="@+id/share_fab"
         android:stateListAnimator="@anim/fab_state_list_anim"
         android:background="@drawable/add_fab_background"
         android:layout_gravity="bottom|end"
@@ -136,6 +137,20 @@
         android:layout_height="56dp"
         android:src="@drawable/ic_share"
         android:elevation="@dimen/fab_elevation"
-        android:contentDescription="@string/action_share" />
+        android:contentDescription="@string/action_share" /> -->
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:background="@drawable/add_fab_background"
+        android:id="@+id/share_fab"
+        app:pressedTranslationZ="6dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:elevation="@dimen/fab_elevation"
+        android:src="@drawable/ic_share"
+        android:contentDescription="@string/action_share"
+        android:layout_height="56dp"
+        android:layout_width="56dp"/>
 
 </android.support.design.widget.CoordinatorLayout>
