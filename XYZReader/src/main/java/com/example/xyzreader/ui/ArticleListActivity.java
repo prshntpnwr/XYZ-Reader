@@ -1,32 +1,21 @@
 package com.example.xyzreader.ui;
 
-import android.annotation.TargetApi;
 import android.app.ActivityOptions;
-//import android.support.v4.app.ActivityOptionsCompat;
-import android.support.v4.app.LoaderManager;
-//import android.app.LoaderManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.Loader;
 import android.database.Cursor;
-import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.app.LoaderManager;
+import android.support.v4.content.Loader;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
-import android.support.v7.widget.Toolbar;
 import android.text.format.DateUtils;
-import android.transition.Slide;
-import android.util.TypedValue;
-import android.view.Gravity;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
 import com.example.xyzreader.R;
@@ -189,6 +178,11 @@ public abstract class ArticleListActivity extends ActionBarActivity implements
             });
             return vh;
         }
+
+     /*  @Override
+        public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+            return null;
+        }*/
 
         @Override
         public void onBindViewHolder(ViewHolder holder, int position) {
