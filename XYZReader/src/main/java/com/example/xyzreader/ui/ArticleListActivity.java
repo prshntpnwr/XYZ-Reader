@@ -2,14 +2,14 @@ package com.example.xyzreader.ui;
 
 import android.annotation.TargetApi;
 import android.app.ActivityOptions;
-import android.app.LoaderManager;
+//import android.support.v4.app.ActivityOptionsCompat;
+import android.support.v4.app.LoaderManager;
+//import android.app.LoaderManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-//import android.content.Loader;
-import com.example.xyzreader.data.ArticleLoader;
-import android.support.v4.content.Loader;
+import android.content.Loader;
 import android.database.Cursor;
 import android.os.Build;
 import android.os.Bundle;
@@ -40,7 +40,7 @@ import com.example.xyzreader.data.UpdaterService;
  * touched, lead to a {@link ArticleDetailActivity} representing item details. On tablets, the
  * activity presents a grid of items as cards.
  */
-public class ArticleListActivity extends ActionBarActivity implements
+public abstract class ArticleListActivity extends ActionBarActivity implements
         LoaderManager.LoaderCallbacks<Cursor>, SwipeRefreshLayout.OnRefreshListener {
 
     //private Toolbar mToolbar;
