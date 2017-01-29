@@ -7,8 +7,11 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
+import android.support.v4.util.Pair;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.RecyclerView;
@@ -172,8 +175,6 @@ public class ArticleListActivity extends ActionBarActivity implements
                             ActivityOptionsCompat.makeSceneTransitionAnimation(ArticleListActivity.this,
                                     new Pair<View, String>(vh.thumbnailView, getString(R.string.transition_photo)));
                     ActivityCompat.startActivity(ArticleListActivity.this, intent, activityOptions.toBundle());*/
-
-
                 }
             });
             return vh;

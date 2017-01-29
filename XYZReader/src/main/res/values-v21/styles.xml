@@ -12,9 +12,10 @@
     </style>
 
     <style name="AppTheme.Detail" parent="@style/AppTheme">
-        <item name="android:windowContentTransitions">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+       <!-- <item name="android:windowContentTransitions">true</item>
         <item name="android:windowEnterTransition">
             @transition/detail_window_enter_transition
-        </item>
+        </item>-->
     </style>
 </resources>
