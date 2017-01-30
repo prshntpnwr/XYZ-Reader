@@ -1,38 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
+    abi="x86_64,x86"
     api-level="23"
-    density="xxhdpi"
+    density="xhdpi"
     format="7"
-    timestamp="2500222333720"
+    timestamp="10253988633367"
     token="3717211199710554337" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="570" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="65" />
     <task
         name="verifier"
-        duration="0" />
+        duration="48" />
 
-    <build timestamp="1153776857668" >
+    <artifact
+        location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
+
+    <build timestamp="9175180897441" >
         <artifact
             location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/outputs/apk/XYZReader-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="2183996327806" >
+    <build timestamp="10025093304538" >
         <artifact
             location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/resources-debug.ap_"
             type="RESOURCES" />
+    </build>
+    <build timestamp="10253988633367" >
         <artifact
             location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
             type="DEX" />
     </build>
-    <build timestamp="2500222333720" />
 
 </instant-run>
