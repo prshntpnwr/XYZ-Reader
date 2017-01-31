@@ -1,18 +1,22 @@
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/draw_insets_frame_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     tools:ignore="MergeRootFrame">
 
     <android.support.design.widget.AppBarLayout
+        android:fitsSystemWindows="true"
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/material_layout_app_bar_height"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
         <android.support.design.widget.CollapsingToolbarLayout
+            android:fitsSystemWindows="true"
             android:id="@+id/toolbar_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -79,18 +83,18 @@
 
                 </LinearLayout>
 
+                <android.support.v7.widget.Toolbar
+                    android:layout_marginTop="24dp"
+                    android:id="@+id/detail_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:contentInsetStart="@dimen/activity_horizontal_margin"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                </android.support.v7.widget.Toolbar>
+
             </FrameLayout>
-
-            <android.support.v7.widget.Toolbar
-                android:layout_marginTop="24dp"
-                android:id="@+id/detail_toolbar"
-                android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                app:contentInsetStart="@dimen/activity_horizontal_margin"
-                app:layout_collapseMode="pin"
-                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
-
-            </android.support.v7.widget.Toolbar>
 
         </android.support.design.widget.CollapsingToolbarLayout>
 
@@ -137,7 +141,6 @@
         android:src="@drawable/ic_share"
         android:elevation="@dimen/fab_elevation"
         android:contentDescription="@string/action_share" /> -->
-
 
     <android.support.design.widget.FloatingActionButton
         android:background="@drawable/add_fab_background"
