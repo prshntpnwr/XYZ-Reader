@@ -82,7 +82,7 @@
             </FrameLayout>
 
             <android.support.v7.widget.Toolbar
-                android:fitsSystemWindows="true"
+                android:layout_marginTop="24dp"
                 android:id="@+id/detail_toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
