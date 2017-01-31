@@ -4,7 +4,7 @@
     api-level="23"
     density="xhdpi"
     format="7"
-    timestamp="8945695990459"
+    timestamp="14484881894803"
     token="3717211199710554337" >
 
     <task
@@ -24,12 +24,38 @@
         location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/resources-debug.ap_"
         type="RESOURCES" />
 
-    <build timestamp="8508755934273" >
+    <build timestamp="13041591290839" >
         <artifact
             location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/outputs/apk/XYZReader-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="8945695990459" >
+    <build timestamp="13200179470899" >
+        <artifact
+            location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="14137696846192"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/builds/debug/14137696846192/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="14210490301329"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/builds/debug/14210490301329/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="14463154513163"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/builds/debug/14463154513163/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build timestamp="14484881894803" >
         <artifact
             location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/resources-debug.ap_"
             type="RESOURCES" />
