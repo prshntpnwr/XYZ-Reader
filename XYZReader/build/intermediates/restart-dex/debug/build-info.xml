@@ -4,7 +4,7 @@
     api-level="23"
     density="xhdpi"
     format="7"
-    timestamp="4451963173604"
+    timestamp="7434645712964"
     token="3717211199710554337" >
 
     <task
@@ -20,19 +20,16 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
-
-    <build timestamp="2020529184420" >
+    <build timestamp="7224242847796" >
         <artifact
             location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/outputs/apk/XYZReader-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="4451963173604" >
+    <build timestamp="7421205097861" >
         <artifact
             location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/resources-debug.ap_"
             type="RESOURCES" />
     </build>
+    <build timestamp="7434645712964" />
 
 </instant-run>
