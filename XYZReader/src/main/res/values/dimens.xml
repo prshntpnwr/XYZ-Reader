@@ -20,6 +20,10 @@
     <dimen name="expanded_toolbar_height">80dp</dimen>
     <dimen name="expanded_toolbar_title_margin_bottom">40dp</dimen>
 
+    <!--card_padding-->
+    <dimen name="material_cards_padding">4dp</dimen>
+    <dimen name="material_component_cards_space_between_cards">4dp</dimen>
+
     <dimen name="max_width">400dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="floating_action_button_elevation">6dp</dimen>

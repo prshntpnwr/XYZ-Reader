@@ -270,6 +270,8 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="list_side_margin">4dp</dimen>
     <dimen name="list_toolbar_side_margin">0dp</dimen>
+    <dimen name="material_cards_padding">4dp</dimen>
+    <dimen name="material_component_cards_space_between_cards">4dp</dimen>
     <dimen name="material_layout_app_bar_height">320dp</dimen>
     <dimen name="max_width">400dp</dimen>
     <dimen name="notification_large_icon_height">64dp</dimen>
