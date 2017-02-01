@@ -104,6 +104,7 @@ public class ArticleDetailFragment extends Fragment implements
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+
         // In support library r8, calling initLoader for a fragment in a FragmentPagerAdapter in
         // the fragment's onCreate may cause the same LoaderManager to be dealt to multiple
         // fragments because their mIndex is -1 (haven't been added to the activity yet). Thus,
@@ -166,9 +167,22 @@ public class ArticleDetailFragment extends Fragment implements
     }
 
     private void setupToolbar() {
-        toolbar.setTitle("");
+        if (toolbar != null) {
+            getActivityCast().setSupportActionBar(toolbar);
+            getActivityCast().getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getActivityCast().getSupportActionBar().setHomeButtonEnabled(true);
+            toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    getActivityCast().onBackPressed();
+                }
+            });
+            toolbar.setTitle("");
+        }
+
+        /*toolbar.setTitle("");
         ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);*/
     }
 
     private void updateStatusBar() {
