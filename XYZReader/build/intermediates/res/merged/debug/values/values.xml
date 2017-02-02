@@ -272,7 +272,7 @@
     <dimen name="list_toolbar_side_margin">0dp</dimen>
     <dimen name="material_cards_padding">4dp</dimen>
     <dimen name="material_component_cards_space_between_cards">4dp</dimen>
-    <dimen name="material_layout_app_bar_height">320dp</dimen>
+    <dimen name="material_layout_app_bar_height">240dp</dimen>
     <dimen name="max_width">400dp</dimen>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
@@ -341,9 +341,6 @@
         <item name="windowNoTitle">true</item>
     </style>
     <style name="AppTheme.Main" parent="@style/AppTheme"/>
-    <style name="AppTheme.NoActionBar">
-        <item name="android:statusBarColor">@android:color/transparent</item>
-    </style>
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>

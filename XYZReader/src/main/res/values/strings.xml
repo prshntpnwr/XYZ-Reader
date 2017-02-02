@@ -11,4 +11,5 @@
 
     <string name="transition_photo" translatable="false">TN_DetailIcon</string>
 
+    <string name="detail_image" translatable="false">Detail Image</string>
 </resources>
