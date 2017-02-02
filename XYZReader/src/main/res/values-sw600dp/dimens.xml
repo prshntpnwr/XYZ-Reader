@@ -1,4 +1,8 @@
 <resources>
+    <dimen name="max_width">540dp</dimen>
+    <dimen name="material_cards_padding">8dp</dimen>
+    <dimen name="material_component_cards_space_between_cards">8dp</dimen>
+
     <!-- detail -->
     <dimen name="detail_title_text_size">42sp</dimen>
     <dimen name="detail_body_text_size">20sp</dimen>
@@ -7,4 +11,5 @@
 
     <dimen name="detail_inner_horizontal_margin">64dp</dimen>
     <dimen name="app_bar_height">176dp</dimen>
+
 </resources>

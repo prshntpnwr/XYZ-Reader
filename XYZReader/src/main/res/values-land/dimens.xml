@@ -6,4 +6,10 @@
     <dimen name="material_layout_app_bar_space_negative">-180dp</dimen>
     <dimen name="material_layout_app_bar_space_positive">180dp</dimen>
     <dimen name="material_layout_app_bar_height">320dp</dimen>
+
+    <!--fab-->
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_press_translation_z">6dp</dimen>
+    <dimen name="fab_margin">8dp</dimen>
+
 </resources>

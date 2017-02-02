@@ -35,7 +35,7 @@
                     android:layout_height="match_parent"
                     android:fitsSystemWindows="true"
                     android:scaleType="centerCrop"
-                    tools:ignore="ContentDescription" />
+                    android:contentDescription="@string/detail_image" />
 
             </FrameLayout>
 
@@ -137,11 +137,11 @@
         android:id="@+id/share_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_margin="@dimen/fab_margin"
         android:clickable="true"
         android:contentDescription="@string/action_share"
         android:src="@drawable/ic_share"
-        app:elevation="@dimen/floating_action_button_elevation"
+        app:elevation="@dimen/fab_elevation"
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|end" />
 
