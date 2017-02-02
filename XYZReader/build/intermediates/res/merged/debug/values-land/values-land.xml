@@ -8,6 +8,9 @@
     <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
     <dimen name="detail_inner_horiz_margin">112dp</dimen>
     <dimen name="detail_photo_height">224dp</dimen>
+    <dimen name="material_layout_app_bar_height">320dp</dimen>
+    <dimen name="material_layout_app_bar_space_negative">-180dp</dimen>
+    <dimen name="material_layout_app_bar_space_positive">180dp</dimen>
     <dimen name="material_logo_spacing">4dp</dimen>
     <dimen name="max_width">500dp</dimen>
     <integer name="list_column_count">3</integer>

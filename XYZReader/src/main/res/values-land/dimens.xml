@@ -2,4 +2,8 @@
 <resources>
     <dimen name="max_width">500dp</dimen>
     <dimen name="material_logo_spacing">4dp</dimen>
+    
+    <dimen name="material_layout_app_bar_space_negative">-180dp</dimen>
+    <dimen name="material_layout_app_bar_space_positive">180dp</dimen>
+    <dimen name="material_layout_app_bar_height">320dp</dimen>
 </resources>
