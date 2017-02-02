@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.AppBarLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/list_appbar"
     android:layout_width="match_parent"
     android:layout_height="@dimen/app_bar_height"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:elevation="12dp"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:elevation="12dp">
 
     <android.support.design.widget.CollapsingToolbarLayout
         android:id="@+id/article_list_toolbar"

@@ -7,11 +7,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <FrameLayout
+    <!--<FrameLayout
         android:id="@+id/up_container"
         android:background="@android:color/transparent"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize">
-    </FrameLayout>
+    </FrameLayout>-->
 
 </FrameLayout>
