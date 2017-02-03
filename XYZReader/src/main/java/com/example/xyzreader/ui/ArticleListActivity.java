@@ -166,9 +166,9 @@ public class ArticleListActivity extends ActionBarActivity implements
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    if (findViewById(R.id.fragment_container) != null) {
+                    if (findViewById(R.id.fragment_container) == null) {
 
-                        mTwoPane = true;
+                        mTwoPane = false;
                         Intent intent = new Intent(Intent.ACTION_VIEW,
                                 ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition())));
 
@@ -183,7 +183,7 @@ public class ArticleListActivity extends ActionBarActivity implements
 
                     }
                     else {
-                            mTwoPane = false;
+                            mTwoPane = true;
                             getSupportFragmentManager().beginTransaction()
                                     .replace(R.id.fragment_container, new ArticleDetailFragment())
                                     .commit();
