@@ -59,12 +59,6 @@ public class ArticleDetailActivity extends AppCompatActivity
 
         setContentView(R.layout.activity_article_detail);
 
-        if (savedInstanceState == null){
-            getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.fragment_container, new ArticleDetailFragment())
-                    .commit();
-        }
-
         getSupportLoaderManager().initLoader(0, null, this);
 
         getWindow().getDecorView().setSystemUiVisibility(

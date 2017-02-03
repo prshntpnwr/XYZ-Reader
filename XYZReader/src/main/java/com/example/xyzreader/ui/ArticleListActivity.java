@@ -181,7 +181,6 @@ public class ArticleListActivity extends ActionBarActivity implements
                                     new Pair<View, String>(vh.thumbnailView, getString(R.string.transition_photo)));
                     ActivityCompat.startActivity(ArticleListActivity.this, intent, activityOptions.toBundle());*/
 
-
                     }
                     else {
                             mTwoPane = false;
