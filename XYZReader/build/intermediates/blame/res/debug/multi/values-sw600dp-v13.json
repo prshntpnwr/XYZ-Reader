@@ -146,11 +146,11 @@
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp/dimens.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 343,
+                        "startOffset": 514,
                         "endColumn": 46,
-                        "endOffset": 385
+                        "endOffset": 556
                     }
                 }
             },
@@ -317,11 +317,11 @@
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp/dimens.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 90,
+                        "startOffset": 261,
                         "endColumn": 52,
-                        "endOffset": 138
+                        "endOffset": 309
                     }
                 }
             },
@@ -374,11 +374,11 @@
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp/dimens.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 281,
+                        "startOffset": 452,
                         "endColumn": 61,
-                        "endOffset": 338
+                        "endOffset": 509
                     }
                 }
             },
@@ -450,11 +450,11 @@
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp/dimens.xml",
                     "position": {
-                        "startLine": 2,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 36,
+                        "startOffset": 207,
                         "endColumn": 53,
-                        "endOffset": 85
+                        "endOffset": 256
                     }
                 }
             },
@@ -469,11 +469,11 @@
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp/dimens.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 238,
+                        "startOffset": 409,
                         "endColumn": 41,
-                        "endOffset": 275
+                        "endOffset": 446
                     }
                 }
             },
@@ -488,11 +488,11 @@
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp/dimens.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 433,
+                        "startOffset": 58,
                         "endColumn": 52,
-                        "endOffset": 481
+                        "endOffset": 106
                     }
                 }
             },
@@ -507,11 +507,11 @@
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp/dimens.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 486,
+                        "startOffset": 111,
                         "endColumn": 74,
-                        "endOffset": 556
+                        "endOffset": 181
                     }
                 }
             },
@@ -526,11 +526,11 @@
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp/dimens.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 1,
                         "startColumn": 4,
-                        "startOffset": 391,
+                        "startOffset": 16,
                         "endColumn": 41,
-                        "endOffset": 428
+                        "endOffset": 53
                     }
                 }
             },
@@ -545,11 +545,11 @@
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp/dimens.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 143,
+                        "startOffset": 314,
                         "endColumn": 94,
-                        "endOffset": 233
+                        "endOffset": 404
                     }
                 }
             },

@@ -35,6 +35,9 @@ import com.example.xyzreader.data.UpdaterService;
 public class ArticleListActivity extends ActionBarActivity implements
         LoaderManager.LoaderCallbacks<Cursor>, SwipeRefreshLayout.OnRefreshListener {
 
+    private boolean mTwoPane;
+    public static final String TAG = ArticleDetailActivity.class.getSimpleName();
+
     //private Toolbar mToolbar;
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private RecyclerView mRecyclerView;
@@ -62,7 +65,6 @@ public class ArticleListActivity extends ActionBarActivity implements
         if (savedInstanceState == null) {
             refresh();
         }
-
       /* if (null != toolbarContainerView) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
                 mRecyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
@@ -164,8 +166,11 @@ public class ArticleListActivity extends ActionBarActivity implements
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(Intent.ACTION_VIEW,
-                            ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition())));
+                    if (findViewById(R.id.fragment_container) != null) {
+
+                        mTwoPane = true;
+                        Intent intent = new Intent(Intent.ACTION_VIEW,
+                                ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition())));
 
                         Bundle bundle = ActivityOptions.makeSceneTransitionAnimation
                                 (ArticleListActivity.this).toBundle();
@@ -175,6 +180,15 @@ public class ArticleListActivity extends ActionBarActivity implements
                             ActivityOptionsCompat.makeSceneTransitionAnimation(ArticleListActivity.this,
                                     new Pair<View, String>(vh.thumbnailView, getString(R.string.transition_photo)));
                     ActivityCompat.startActivity(ArticleListActivity.this, intent, activityOptions.toBundle());*/
+
+
+                    }
+                    else {
+                            mTwoPane = false;
+                            getSupportFragmentManager().beginTransaction()
+                                    .replace(R.id.fragment_container, new ArticleDetailFragment())
+                                    .commit();
+                        }
                 }
             });
             return vh;
