@@ -100,12 +100,12 @@
         "source": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_bar.xml"
-    },
-    {
         "merged": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
         "source": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
