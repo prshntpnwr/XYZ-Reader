@@ -170,13 +170,23 @@ public class ArticleDetailFragment extends Fragment implements
 
     private void setupToolbar() {
         if (toolbar != null) {
-            getActivityCast().setSupportActionBar(toolbar);
+            /*getActivityCast().setSupportActionBar(toolbar);
             getActivityCast().getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getActivityCast().getSupportActionBar().setHomeButtonEnabled(true);
             toolbar.setNavigationOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     getActivityCast().onBackPressed();
+                }
+            });*/
+
+            ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+            toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    ((AppCompatActivity) getActivity()).onBackPressed();
                 }
             });
             toolbar.setTitle("");
