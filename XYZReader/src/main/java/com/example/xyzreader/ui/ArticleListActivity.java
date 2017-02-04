@@ -185,7 +185,7 @@ public class ArticleListActivity extends ActionBarActivity implements
                     else {
                             mTwoPane = true;
                             getSupportFragmentManager().beginTransaction()
-                                    .replace(R.id.fragment_container, new ArticleDetailFragment())
+                                    .replace(R.id.fragment_container, new ArticleDetailFragment().newInstance(getItemId((vh.getAdapterPosition()))))
                                     .commit();
                         }
                 }
