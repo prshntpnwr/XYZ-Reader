@@ -59,7 +59,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
-        app:behavior_overlapTop="@id/app_bar">
+        app:behavior_overlapTop="@id/photo"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <RelativeLayout
             android:layout_width="match_parent"

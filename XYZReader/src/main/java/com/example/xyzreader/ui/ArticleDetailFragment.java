@@ -127,13 +127,13 @@ public class ArticleDetailFragment extends Fragment implements
             }
         });*/
 
-        coordinatorLayout = (CoordinatorLayout)
+        /*coordinatorLayout = (CoordinatorLayout)
                 mRootView.findViewById(R.id.draw_insets_frame_layout);
 
-        mScrollView = (NestedScrollView) mRootView.findViewById(R.id.scrollview);
         collapsingToolbarLayout = (CollapsingToolbarLayout) mRootView.findViewById(R.id.toolbar_layout);
-
+*/
         toolbar = (Toolbar) mRootView.findViewById(R.id.detail_toolbar);
+        mScrollView = (NestedScrollView) mRootView.findViewById(R.id.scrollview);
 
         /*
         mScrollView.setCallbacks(new ObservableScrollView.Callbacks() {
