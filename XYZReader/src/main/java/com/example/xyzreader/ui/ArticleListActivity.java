@@ -35,7 +35,7 @@ import com.example.xyzreader.data.UpdaterService;
 public class ArticleListActivity extends ActionBarActivity implements
         LoaderManager.LoaderCallbacks<Cursor>, SwipeRefreshLayout.OnRefreshListener {
 
-    private boolean mTwoPane;
+    public static boolean mTwoPane;
     public static final String TAG = ArticleDetailActivity.class.getSimpleName();
 
     //private Toolbar mToolbar;

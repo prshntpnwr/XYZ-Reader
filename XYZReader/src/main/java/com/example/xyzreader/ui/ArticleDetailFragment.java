@@ -161,7 +161,9 @@ public class ArticleDetailFragment extends Fragment implements
             }
         });
 
-        setupToolbar();
+        if (!ArticleListActivity.mTwoPane){
+            setupToolbar();
+        }
         bindViews();
         updateStatusBar();
 

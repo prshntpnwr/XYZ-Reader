@@ -2,9 +2,9 @@
 <instant-run
     abi="x86_64,x86"
     api-level="23"
-    density="mdpi"
+    density="560dpi"
     format="7"
-    timestamp="21051945625218"
+    timestamp="25748072670485"
     token="3717211199710554337" >
 
     <task
@@ -20,19 +20,18 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
-
-    <build timestamp="11882565760618" >
+    <build timestamp="25474853965358" >
         <artifact
             location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/outputs/apk/XYZReader-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="21051945625218" >
+    <build
+        timestamp="25583454907872"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
+            location="/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/build/intermediates/builds/debug/25583454907872/classes.dex"
+            type="RELOAD_DEX" />
     </build>
+    <build timestamp="25748072670485" />
 
 </instant-run>
