@@ -28,6 +28,7 @@ import android.widget.ImageView;
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
 import com.example.xyzreader.data.ItemsContract;
+import com.xgc1986.parallaxPagerTransformer.ParallaxPagerTransformer;
 
 /**
  * An activity representing a single Article detail screen, letting you swipe between articles.
@@ -71,6 +72,7 @@ public class ArticleDetailActivity extends AppCompatActivity
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
                 WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);*/
 
+        mPager.setPageTransformer(false, new ParallaxPagerTransformer(R.id.pager));
         mPagerAdapter = new MyPagerAdapter(getSupportFragmentManager());
         mPager = (ViewPager) findViewById(R.id.pager);
         mPager.setAdapter(mPagerAdapter);
