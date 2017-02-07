@@ -71,27 +71,27 @@
       <file leaf-file-name="fragment_article_detail.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/layout-land/fragment_article_detail.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54442346">
-              <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.55058825">
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
               <folding>
                 <element signature="e#578#617#0" expanded="true" />
                 <element signature="e#931#966#0" expanded="true" />
                 <element signature="e#1009#1054#0" expanded="true" />
-                <element signature="e#1581#1603#0" expanded="true" />
-                <element signature="e#1902#1937#0" expanded="true" />
-                <element signature="e#2471#2511#0" expanded="true" />
-                <element signature="e#2761#2779#0" expanded="true" />
-                <element signature="e#2926#2961#0" expanded="true" />
-                <element signature="e#3605#3640#0" expanded="true" />
-                <element signature="e#3685#3720#0" expanded="true" />
-                <element signature="e#3766#3801#0" expanded="true" />
-                <element signature="e#3845#3880#0" expanded="true" />
-                <element signature="e#5106#5141#0" expanded="true" />
-                <element signature="e#5193#5228#0" expanded="true" />
-                <element signature="e#5553#5583#0" expanded="true" />
-                <element signature="e#6062#6081#0" expanded="true" />
-                <element signature="e#6150#6172#0" expanded="true" />
-                <element signature="e#6236#6258#0" expanded="true" />
+                <element signature="e#1641#1663#0" expanded="true" />
+                <element signature="e#1962#1997#0" expanded="true" />
+                <element signature="e#2531#2571#0" expanded="true" />
+                <element signature="e#2821#2839#0" expanded="true" />
+                <element signature="e#2986#3021#0" expanded="true" />
+                <element signature="e#3665#3700#0" expanded="true" />
+                <element signature="e#3745#3780#0" expanded="true" />
+                <element signature="e#3826#3861#0" expanded="true" />
+                <element signature="e#3905#3940#0" expanded="true" />
+                <element signature="e#5166#5201#0" expanded="true" />
+                <element signature="e#5253#5288#0" expanded="true" />
+                <element signature="e#5613#5643#0" expanded="true" />
+                <element signature="e#6122#6141#0" expanded="true" />
+                <element signature="e#6210#6232#0" expanded="true" />
+                <element signature="e#6296#6318#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,30 +179,30 @@
       <file leaf-file-name="fragment_article_detail.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/layout-sw600dp-port/fragment_article_detail.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.903225">
-              <caret line="54" column="41" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="41" />
+            <state vertical-scroll-proportion="-5.419355">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#578#617#0" expanded="true" />
                 <element signature="e#931#966#0" expanded="true" />
                 <element signature="e#1009#1054#0" expanded="true" />
-                <element signature="e#1581#1603#0" expanded="true" />
-                <element signature="e#1902#1937#0" expanded="true" />
-                <element signature="e#2471#2511#0" expanded="true" />
-                <element signature="e#2761#2779#0" expanded="true" />
-                <element signature="e#2926#2961#0" expanded="true" />
-                <element signature="e#3605#3640#0" expanded="true" />
-                <element signature="e#3685#3720#0" expanded="true" />
-                <element signature="e#3766#3801#0" expanded="true" />
-                <element signature="e#3845#3880#0" expanded="true" />
-                <element signature="e#4376#4407#0" expanded="true" />
-                <element signature="e#4804#4836#0" expanded="true" />
-                <element signature="e#5259#5294#0" expanded="true" />
-                <element signature="e#5346#5381#0" expanded="true" />
-                <element signature="e#5706#5736#0" expanded="true" />
-                <element signature="e#6272#6291#0" expanded="true" />
-                <element signature="e#6328#6347#0" expanded="true" />
-                <element signature="e#6374#6396#0" expanded="true" />
-                <element signature="e#6473#6495#0" expanded="true" />
+                <element signature="e#1641#1663#0" expanded="true" />
+                <element signature="e#1962#1997#0" expanded="true" />
+                <element signature="e#2531#2571#0" expanded="true" />
+                <element signature="e#2821#2839#0" expanded="true" />
+                <element signature="e#2986#3021#0" expanded="true" />
+                <element signature="e#3665#3700#0" expanded="true" />
+                <element signature="e#3745#3780#0" expanded="true" />
+                <element signature="e#3826#3861#0" expanded="true" />
+                <element signature="e#3905#3940#0" expanded="true" />
+                <element signature="e#4436#4467#0" expanded="true" />
+                <element signature="e#4864#4896#0" expanded="true" />
+                <element signature="e#5319#5354#0" expanded="true" />
+                <element signature="e#5406#5441#0" expanded="true" />
+                <element signature="e#5766#5796#0" expanded="true" />
+                <element signature="e#6332#6351#0" expanded="true" />
+                <element signature="e#6388#6407#0" expanded="true" />
+                <element signature="e#6434#6456#0" expanded="true" />
+                <element signature="e#6533#6555#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,27 +214,27 @@
       <file leaf-file-name="fragment_article_detail.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/layout-sw600dp-land/fragment_article_detail.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.5645162">
-              <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+            <state vertical-scroll-proportion="-4.177419">
+              <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
               <folding>
                 <element signature="e#578#617#0" expanded="true" />
                 <element signature="e#931#966#0" expanded="true" />
                 <element signature="e#1009#1054#0" expanded="true" />
-                <element signature="e#1581#1603#0" expanded="true" />
-                <element signature="e#1902#1937#0" expanded="true" />
-                <element signature="e#2471#2511#0" expanded="true" />
-                <element signature="e#2761#2779#0" expanded="true" />
-                <element signature="e#2926#2961#0" expanded="true" />
-                <element signature="e#3605#3640#0" expanded="true" />
-                <element signature="e#3685#3720#0" expanded="true" />
-                <element signature="e#3766#3801#0" expanded="true" />
-                <element signature="e#3845#3880#0" expanded="true" />
-                <element signature="e#5106#5141#0" expanded="true" />
-                <element signature="e#5193#5228#0" expanded="true" />
-                <element signature="e#5553#5583#0" expanded="true" />
-                <element signature="e#6062#6081#0" expanded="true" />
-                <element signature="e#6150#6172#0" expanded="true" />
-                <element signature="e#6236#6258#0" expanded="true" />
+                <element signature="e#1641#1663#0" expanded="true" />
+                <element signature="e#1962#1997#0" expanded="true" />
+                <element signature="e#2530#2570#0" expanded="true" />
+                <element signature="e#2820#2838#0" expanded="true" />
+                <element signature="e#2985#3020#0" expanded="true" />
+                <element signature="e#3664#3699#0" expanded="true" />
+                <element signature="e#3744#3779#0" expanded="true" />
+                <element signature="e#3825#3860#0" expanded="true" />
+                <element signature="e#3904#3939#0" expanded="true" />
+                <element signature="e#5165#5200#0" expanded="true" />
+                <element signature="e#5252#5287#0" expanded="true" />
+                <element signature="e#5612#5642#0" expanded="true" />
+                <element signature="e#6121#6140#0" expanded="true" />
+                <element signature="e#6209#6231#0" expanded="true" />
+                <element signature="e#6295#6317#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1923,9 +1923,9 @@
         <option value="$PROJECT_DIR$/XYZReader/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/XYZReader/src/main/res/values-sw600dp-land/dimens.xml" />
         <option value="$PROJECT_DIR$/XYZReader/src/main/res/values-sw600dp-port/dimens.xml" />
-        <option value="$PROJECT_DIR$/XYZReader/src/main/res/layout-sw600dp-port/fragment_article_detail.xml" />
-        <option value="$PROJECT_DIR$/XYZReader/src/main/res/layout-sw600dp-land/fragment_article_detail.xml" />
         <option value="$PROJECT_DIR$/XYZReader/src/main/res/layout-land/fragment_article_detail.xml" />
+        <option value="$PROJECT_DIR$/XYZReader/src/main/res/layout-sw600dp-land/fragment_article_detail.xml" />
+        <option value="$PROJECT_DIR$/XYZReader/src/main/res/layout-sw600dp-port/fragment_article_detail.xml" />
       </list>
     </option>
   </component>
@@ -2409,7 +2409,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.5059761" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16747183" sideWeight="0.49402392" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16747183" sideWeight="0.49402392" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.49402392" order="2" side_tool="false" content_ui="tabs" />
@@ -2522,21 +2522,21 @@
             <element signature="e#578#617#0" expanded="true" />
             <element signature="e#931#966#0" expanded="true" />
             <element signature="e#1009#1054#0" expanded="true" />
-            <element signature="e#1581#1603#0" expanded="true" />
-            <element signature="e#1902#1937#0" expanded="true" />
-            <element signature="e#2471#2511#0" expanded="true" />
-            <element signature="e#2761#2779#0" expanded="true" />
-            <element signature="e#2926#2961#0" expanded="true" />
-            <element signature="e#3605#3640#0" expanded="true" />
-            <element signature="e#3685#3720#0" expanded="true" />
-            <element signature="e#3766#3801#0" expanded="true" />
-            <element signature="e#3845#3880#0" expanded="true" />
-            <element signature="e#5106#5141#0" expanded="true" />
-            <element signature="e#5193#5228#0" expanded="true" />
-            <element signature="e#5553#5583#0" expanded="true" />
-            <element signature="e#6062#6081#0" expanded="true" />
-            <element signature="e#6150#6172#0" expanded="true" />
-            <element signature="e#6236#6258#0" expanded="true" />
+            <element signature="e#1641#1663#0" expanded="true" />
+            <element signature="e#1962#1997#0" expanded="true" />
+            <element signature="e#2531#2571#0" expanded="true" />
+            <element signature="e#2821#2839#0" expanded="true" />
+            <element signature="e#2986#3021#0" expanded="true" />
+            <element signature="e#3665#3700#0" expanded="true" />
+            <element signature="e#3745#3780#0" expanded="true" />
+            <element signature="e#3826#3861#0" expanded="true" />
+            <element signature="e#3905#3940#0" expanded="true" />
+            <element signature="e#5166#5201#0" expanded="true" />
+            <element signature="e#5253#5288#0" expanded="true" />
+            <element signature="e#5613#5643#0" expanded="true" />
+            <element signature="e#6122#6141#0" expanded="true" />
+            <element signature="e#6210#6232#0" expanded="true" />
+            <element signature="e#6296#6318#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2593,21 +2593,21 @@
             <element signature="e#578#617#0" expanded="true" />
             <element signature="e#931#966#0" expanded="true" />
             <element signature="e#1009#1054#0" expanded="true" />
-            <element signature="e#1581#1603#0" expanded="true" />
-            <element signature="e#1902#1937#0" expanded="true" />
-            <element signature="e#2471#2511#0" expanded="true" />
-            <element signature="e#2761#2779#0" expanded="true" />
-            <element signature="e#2926#2961#0" expanded="true" />
-            <element signature="e#3605#3640#0" expanded="true" />
-            <element signature="e#3685#3720#0" expanded="true" />
-            <element signature="e#3766#3801#0" expanded="true" />
-            <element signature="e#3845#3880#0" expanded="true" />
-            <element signature="e#5106#5141#0" expanded="true" />
-            <element signature="e#5193#5228#0" expanded="true" />
-            <element signature="e#5553#5583#0" expanded="true" />
-            <element signature="e#6062#6081#0" expanded="true" />
-            <element signature="e#6150#6172#0" expanded="true" />
-            <element signature="e#6236#6258#0" expanded="true" />
+            <element signature="e#1641#1663#0" expanded="true" />
+            <element signature="e#1962#1997#0" expanded="true" />
+            <element signature="e#2531#2571#0" expanded="true" />
+            <element signature="e#2821#2839#0" expanded="true" />
+            <element signature="e#2986#3021#0" expanded="true" />
+            <element signature="e#3665#3700#0" expanded="true" />
+            <element signature="e#3745#3780#0" expanded="true" />
+            <element signature="e#3826#3861#0" expanded="true" />
+            <element signature="e#3905#3940#0" expanded="true" />
+            <element signature="e#5166#5201#0" expanded="true" />
+            <element signature="e#5253#5288#0" expanded="true" />
+            <element signature="e#5613#5643#0" expanded="true" />
+            <element signature="e#6122#6141#0" expanded="true" />
+            <element signature="e#6210#6232#0" expanded="true" />
+            <element signature="e#6296#6318#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2946,30 +2946,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/layout-sw600dp-port/fragment_article_detail.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.903225">
-          <caret line="54" column="41" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="41" />
+        <state vertical-scroll-proportion="-5.419355">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="e#578#617#0" expanded="true" />
             <element signature="e#931#966#0" expanded="true" />
             <element signature="e#1009#1054#0" expanded="true" />
-            <element signature="e#1581#1603#0" expanded="true" />
-            <element signature="e#1902#1937#0" expanded="true" />
-            <element signature="e#2471#2511#0" expanded="true" />
-            <element signature="e#2761#2779#0" expanded="true" />
-            <element signature="e#2926#2961#0" expanded="true" />
-            <element signature="e#3605#3640#0" expanded="true" />
-            <element signature="e#3685#3720#0" expanded="true" />
-            <element signature="e#3766#3801#0" expanded="true" />
-            <element signature="e#3845#3880#0" expanded="true" />
-            <element signature="e#4376#4407#0" expanded="true" />
-            <element signature="e#4804#4836#0" expanded="true" />
-            <element signature="e#5259#5294#0" expanded="true" />
-            <element signature="e#5346#5381#0" expanded="true" />
-            <element signature="e#5706#5736#0" expanded="true" />
-            <element signature="e#6272#6291#0" expanded="true" />
-            <element signature="e#6328#6347#0" expanded="true" />
-            <element signature="e#6374#6396#0" expanded="true" />
-            <element signature="e#6473#6495#0" expanded="true" />
+            <element signature="e#1641#1663#0" expanded="true" />
+            <element signature="e#1962#1997#0" expanded="true" />
+            <element signature="e#2531#2571#0" expanded="true" />
+            <element signature="e#2821#2839#0" expanded="true" />
+            <element signature="e#2986#3021#0" expanded="true" />
+            <element signature="e#3665#3700#0" expanded="true" />
+            <element signature="e#3745#3780#0" expanded="true" />
+            <element signature="e#3826#3861#0" expanded="true" />
+            <element signature="e#3905#3940#0" expanded="true" />
+            <element signature="e#4436#4467#0" expanded="true" />
+            <element signature="e#4864#4896#0" expanded="true" />
+            <element signature="e#5319#5354#0" expanded="true" />
+            <element signature="e#5406#5441#0" expanded="true" />
+            <element signature="e#5766#5796#0" expanded="true" />
+            <element signature="e#6332#6351#0" expanded="true" />
+            <element signature="e#6388#6407#0" expanded="true" />
+            <element signature="e#6434#6456#0" expanded="true" />
+            <element signature="e#6533#6555#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2979,27 +2979,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/layout-sw600dp-land/fragment_article_detail.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5645162">
-          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+        <state vertical-scroll-proportion="-4.177419">
+          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
           <folding>
             <element signature="e#578#617#0" expanded="true" />
             <element signature="e#931#966#0" expanded="true" />
             <element signature="e#1009#1054#0" expanded="true" />
-            <element signature="e#1581#1603#0" expanded="true" />
-            <element signature="e#1902#1937#0" expanded="true" />
-            <element signature="e#2471#2511#0" expanded="true" />
-            <element signature="e#2761#2779#0" expanded="true" />
-            <element signature="e#2926#2961#0" expanded="true" />
-            <element signature="e#3605#3640#0" expanded="true" />
-            <element signature="e#3685#3720#0" expanded="true" />
-            <element signature="e#3766#3801#0" expanded="true" />
-            <element signature="e#3845#3880#0" expanded="true" />
-            <element signature="e#5106#5141#0" expanded="true" />
-            <element signature="e#5193#5228#0" expanded="true" />
-            <element signature="e#5553#5583#0" expanded="true" />
-            <element signature="e#6062#6081#0" expanded="true" />
-            <element signature="e#6150#6172#0" expanded="true" />
-            <element signature="e#6236#6258#0" expanded="true" />
+            <element signature="e#1641#1663#0" expanded="true" />
+            <element signature="e#1962#1997#0" expanded="true" />
+            <element signature="e#2530#2570#0" expanded="true" />
+            <element signature="e#2820#2838#0" expanded="true" />
+            <element signature="e#2985#3020#0" expanded="true" />
+            <element signature="e#3664#3699#0" expanded="true" />
+            <element signature="e#3744#3779#0" expanded="true" />
+            <element signature="e#3825#3860#0" expanded="true" />
+            <element signature="e#3904#3939#0" expanded="true" />
+            <element signature="e#5165#5200#0" expanded="true" />
+            <element signature="e#5252#5287#0" expanded="true" />
+            <element signature="e#5612#5642#0" expanded="true" />
+            <element signature="e#6121#6140#0" expanded="true" />
+            <element signature="e#6209#6231#0" expanded="true" />
+            <element signature="e#6295#6317#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3009,27 +3009,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/layout-land/fragment_article_detail.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54442346">
-          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.55058825">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding>
             <element signature="e#578#617#0" expanded="true" />
             <element signature="e#931#966#0" expanded="true" />
             <element signature="e#1009#1054#0" expanded="true" />
-            <element signature="e#1581#1603#0" expanded="true" />
-            <element signature="e#1902#1937#0" expanded="true" />
-            <element signature="e#2471#2511#0" expanded="true" />
-            <element signature="e#2761#2779#0" expanded="true" />
-            <element signature="e#2926#2961#0" expanded="true" />
-            <element signature="e#3605#3640#0" expanded="true" />
-            <element signature="e#3685#3720#0" expanded="true" />
-            <element signature="e#3766#3801#0" expanded="true" />
-            <element signature="e#3845#3880#0" expanded="true" />
-            <element signature="e#5106#5141#0" expanded="true" />
-            <element signature="e#5193#5228#0" expanded="true" />
-            <element signature="e#5553#5583#0" expanded="true" />
-            <element signature="e#6062#6081#0" expanded="true" />
-            <element signature="e#6150#6172#0" expanded="true" />
-            <element signature="e#6236#6258#0" expanded="true" />
+            <element signature="e#1641#1663#0" expanded="true" />
+            <element signature="e#1962#1997#0" expanded="true" />
+            <element signature="e#2531#2571#0" expanded="true" />
+            <element signature="e#2821#2839#0" expanded="true" />
+            <element signature="e#2986#3021#0" expanded="true" />
+            <element signature="e#3665#3700#0" expanded="true" />
+            <element signature="e#3745#3780#0" expanded="true" />
+            <element signature="e#3826#3861#0" expanded="true" />
+            <element signature="e#3905#3940#0" expanded="true" />
+            <element signature="e#5166#5201#0" expanded="true" />
+            <element signature="e#5253#5288#0" expanded="true" />
+            <element signature="e#5613#5643#0" expanded="true" />
+            <element signature="e#6122#6141#0" expanded="true" />
+            <element signature="e#6210#6232#0" expanded="true" />
+            <element signature="e#6296#6318#0" expanded="true" />
           </folding>
         </state>
       </provider>
