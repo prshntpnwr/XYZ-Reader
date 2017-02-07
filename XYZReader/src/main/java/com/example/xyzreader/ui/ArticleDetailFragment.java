@@ -36,6 +36,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageLoader;
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
+import com.xgc1986.parallaxPagerTransformer.ParallaxPagerTransformer;
 
 /**
  * A fragment representing a single Article detail screen. This fragment is
