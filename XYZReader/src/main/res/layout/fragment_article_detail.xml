@@ -100,7 +100,8 @@
                     style="?android:attr/textAppearanceSmall"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#8fff" />
+                    android:textColor="#8fff"
+                    android:textSize="@dimen/detail_byline_text_size"/>
 
             </LinearLayout>
 

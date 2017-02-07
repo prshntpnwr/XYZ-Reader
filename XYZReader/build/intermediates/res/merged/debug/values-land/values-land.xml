@@ -14,6 +14,7 @@
     <dimen name="material_layout_app_bar_height">320dp</dimen>
     <dimen name="material_logo_spacing">4dp</dimen>
     <dimen name="max_width">500dp</dimen>
+    <item format="float" name="detail_body_line_spacing_multiplier" type="fraction">1.25</item>
     <integer name="list_column_count">3</integer>
     <style name="Widget.Design.TabLayout" parent="Base.Widget.Design.TabLayout">
         <item name="tabGravity">center</item>
