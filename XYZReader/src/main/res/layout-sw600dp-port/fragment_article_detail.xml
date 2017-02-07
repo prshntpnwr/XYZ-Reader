@@ -52,6 +52,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-180dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <RelativeLayout
@@ -63,6 +64,7 @@
                 android:layout_width="@dimen/max_width"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/activity_horizontal_margin"
                 android:clickable="true"
                 android:focusable="true">
 
