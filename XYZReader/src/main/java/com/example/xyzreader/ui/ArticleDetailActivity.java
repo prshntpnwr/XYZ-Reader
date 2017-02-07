@@ -73,7 +73,7 @@ public class ArticleDetailActivity extends AppCompatActivity
                 WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);*/
 
         mPager = (ViewPager) findViewById(R.id.pager);
-        mPager.setPageTransformer(false, new ParallaxPagerTransformer(R.id.draw_insets_frame_layout));
+        mPager.setPageTransformer(false, new ParallaxPagerTransformer(R.id.photo));
         mPagerAdapter = new MyPagerAdapter(getSupportFragmentManager());
         mPager = (ViewPager) findViewById(R.id.pager);
         mPager.setAdapter(mPagerAdapter);
