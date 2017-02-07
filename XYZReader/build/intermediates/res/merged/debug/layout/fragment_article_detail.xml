@@ -20,40 +20,42 @@
             app:expandedTitleMargin="@dimen/activity_horizontal_margin"
             app:expandedTitleMarginBottom="@dimen/expanded_toolbar_title_margin_bottom"
             app:expandedTitleTextAppearance="@style/ExpandedTitleTextAppearance"
-            app:layout_scrollFlags="scroll"
+            app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
             app:toolbarId="@+id/toolbar">
 
-                <FrameLayout
-                    android:id="@+id/photo_container"
+            <FrameLayout
+                android:id="@+id/photo_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/photo_placeholder"
+                app:layout_collapseMode="parallax"
+                app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+
+                <ImageView
+                    android:id="@+id/photo"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@color/photo_placeholder">
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/detail_image"
+                    app:layout_collapseMode="parallax" />
 
-                    <ImageView
-                        android:id="@+id/photo"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:scaleType="fitXY"
-                        android:contentDescription="@string/detail_image"
-                        app:layout_collapseMode="pin" />
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/photo_background_protection"/>
-
-                </FrameLayout>
-
-                <android.support.v7.widget.Toolbar
-                    android:layout_marginTop="24dp"
-                    android:id="@+id/detail_toolbar"
+                <View
                     android:layout_width="match_parent"
-                    android:layout_height="?attr/actionBarSize"
-                    app:contentInsetStart="@dimen/activity_horizontal_margin"
-                    app:layout_collapseMode="pin"
-                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+                    android:layout_height="match_parent"
+                    android:background="@drawable/photo_background_protection"/>
 
-                </android.support.v7.widget.Toolbar>
+            </FrameLayout>
+
+            <android.support.v7.widget.Toolbar
+                android:layout_marginTop="24dp"
+                android:id="@+id/detail_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:contentInsetStart="@dimen/activity_horizontal_margin"
+                app:layout_collapseMode="parallax"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            </android.support.v7.widget.Toolbar>
 
         </android.support.design.widget.CollapsingToolbarLayout>
 
