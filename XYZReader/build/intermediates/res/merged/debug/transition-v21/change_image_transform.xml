@@ -1,4 +1,4 @@
-<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+<transitionSet android:duration="3000" xmlns:android="http://schemas.android.com/apk/res/android">
     <changeBounds/>
     <changeImageTransform/>
 </transitionSet>

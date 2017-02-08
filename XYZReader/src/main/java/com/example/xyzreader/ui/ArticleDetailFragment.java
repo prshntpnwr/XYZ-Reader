@@ -194,7 +194,8 @@ public class ArticleDetailFragment extends Fragment implements
     public void loadDetailWindowTransition() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             Slide slide = new Slide(Gravity.BOTTOM);
-            slide.addTarget(R.id.scrollview);
+            //slide.addTarget(R.id.scrollview_linear_layout);
+            slide.excludeTarget(R.id.app_bar,true);
             slide.setInterpolator(
                     AnimationUtils.loadInterpolator(getActivity(), android.R.interpolator.linear_out_slow_in));
             slide.setDuration(3000);
@@ -307,23 +308,24 @@ public class ArticleDetailFragment extends Fragment implements
 
                         }
                     });
+
+            mPhotoView.getViewTreeObserver().addOnPreDrawListener(new ViewTreeObserver.OnPreDrawListener() {
+                @Override
+                public boolean onPreDraw() {
+                    mPhotoView.getViewTreeObserver().removeOnPreDrawListener(this);
+                    // Start the postponed transition here
+                    ActivityCompat.startPostponedEnterTransition(getActivity());
+                    Log.d("HERE GOES TRANSITION---", "Starting transition");
+                    return true;
+                }
+            });
+
         } else {
             mRootView.setVisibility(View.GONE);
             titleView.setText("N/A");
             bylineView.setText("N/A" );
             bodyView.setText("N/A");
         }
-
-        mPhotoView.getViewTreeObserver().addOnPreDrawListener(new ViewTreeObserver.OnPreDrawListener() {
-            @Override
-            public boolean onPreDraw() {
-                mPhotoView.getViewTreeObserver().removeOnPreDrawListener(this);
-                // Start the postponed transition here
-                ActivityCompat.startPostponedEnterTransition(getActivity());
-                Log.d("HERE GOES TRANSITION---", "Starting transition");
-                return true;
-            }
-        });
     }
 
     @Override
