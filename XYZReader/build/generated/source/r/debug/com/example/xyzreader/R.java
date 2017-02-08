@@ -2647,8 +2647,7 @@ containing a value of this type.
         public static final int Animation_AppCompat_DropDownUp=0x7f0a008c;
         public static final int AppTheme=0x7f0a008d;
         public static final int AppTheme_AppBarOverlay=0x7f0a008e;
-        /** transition
-        <item name="android:windowContentTransitions">true</item>
+        /** <item name="android:windowContentTransitions">true</item>
         <item name="android:windowEnterTransition">
             @transition/detail_window_enter_transition
         </item>
@@ -2996,9 +2995,9 @@ containing a value of this type.
         public static final int Widget_Design_TextInputLayout=0x7f0a015a;
     }
     public static final class transition {
-        public static final int detail_window_enter_transition=0x7f060000;
-        public static final int exit_transition=0x7f060001;
-        public static final int reenter_transition=0x7f060002;
+        public static final int article_list_exit_transition=0x7f060000;
+        public static final int article_list_return_transition=0x7f060001;
+        public static final int detail_window_enter_transition=0x7f060002;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.

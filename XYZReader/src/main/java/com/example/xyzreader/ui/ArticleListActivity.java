@@ -2,6 +2,7 @@ package com.example.xyzreader.ui;
 
 import android.app.ActivityOptions;
 import android.content.BroadcastReceiver;
+import android.content.ClipData;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -19,6 +20,7 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.text.format.DateUtils;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.xyzreader.R;
@@ -172,15 +174,21 @@ public class ArticleListActivity extends ActionBarActivity implements
                         Intent intent = new Intent(Intent.ACTION_VIEW,
                                 ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition())));
 
-                        Bundle bundle = ActivityOptions.makeSceneTransitionAnimation
-                                (ArticleListActivity.this).toBundle();
-                        startActivity(intent, bundle);
+                        final ImageView image = (ImageView) view.findViewById(R.id.thumbnail);
 
-                    /*ActivityOptionsCompat activityOptions =
+                         Bundle bundle = ActivityOptions.makeSceneTransitionAnimation
+                                (ArticleListActivity.this,
+                                        image,
+                                        image.getTransitionName())
+                                 .toBundle();
+                        startActivity(intent, bundle);
+                     /*  final ImageView image = (ImageView) view.findViewById(R.id.photo);
+
+                    ActivityOptionsCompat activityOptions =
                             ActivityOptionsCompat.makeSceneTransitionAnimation(ArticleListActivity.this,
                                     new Pair<View, String>(vh.thumbnailView, getString(R.string.transition_photo)));
-                    ActivityCompat.startActivity(ArticleListActivity.this, intent, activityOptions.toBundle());*/
-
+                    ActivityCompat.startActivity(ArticleListActivity.this, intent, activityOptions.toBundle());
+                        */
                     }
                     else {
                             mTwoPane = true;
