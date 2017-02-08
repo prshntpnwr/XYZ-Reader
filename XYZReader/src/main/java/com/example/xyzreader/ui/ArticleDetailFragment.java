@@ -178,7 +178,7 @@ public class ArticleDetailFragment extends Fragment implements
         bindViews();
         updateStatusBar();
         setSharedAnimation();
-        loadDetailWindowTransition();
+        //loadDetailWindowTransition();
 
         return mRootView;
     }
@@ -190,7 +190,7 @@ public class ArticleDetailFragment extends Fragment implements
         }
     }
 
-    public void loadDetailWindowTransition() {
+    /*public void loadDetailWindowTransition() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             Slide slide = new Slide(Gravity.BOTTOM);
             //slide.addTarget(R.id.scrollview);
@@ -201,7 +201,7 @@ public class ArticleDetailFragment extends Fragment implements
             slide.setDuration(250);
             getActivity().getWindow().setEnterTransition(slide);
         }
-    }
+    }*/
 
     private void setupToolbar() {
         if (toolbar != null) {

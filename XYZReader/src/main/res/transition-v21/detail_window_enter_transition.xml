@@ -15,7 +15,7 @@
         </targets>
     </slide>
 
-    <slide android:slideEdge="right">
+    <slide android:slideEdge="bottom">
         <targets>
             <target android:targetId="@id/scrollview" />
         </targets>
