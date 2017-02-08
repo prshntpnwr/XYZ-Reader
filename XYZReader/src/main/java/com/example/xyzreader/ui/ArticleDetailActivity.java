@@ -1,6 +1,7 @@
 package com.example.xyzreader.ui;
 
 import android.graphics.Color;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
@@ -71,6 +72,9 @@ public class ArticleDetailActivity extends AppCompatActivity
        /* //transparent status bar and navigation bar
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
                 WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);*/
+
+        //Postpone transition here
+        ActivityCompat.postponeEnterTransition(this);
 
         mPager = (ViewPager) findViewById(R.id.pager);
         mPager.setPageTransformer(false, new ParallaxPagerTransformer(R.id.photo));
@@ -202,7 +206,7 @@ public class ArticleDetailActivity extends AppCompatActivity
         @Override
         public Fragment getItem(int position) {
             mCursor.moveToPosition(position);
-            return ArticleDetailFragment.newInstance(mCursor.getLong(ArticleLoader.Query._ID));
+            return ArticleDetailFragment.newInstance(mCursor.getLong(ArticleLoader.Query._ID), position);
         }
 
         @Override

@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.database.Cursor;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.ActivityOptionsCompat;
@@ -174,14 +175,22 @@ public class ArticleListActivity extends ActionBarActivity implements
                         Intent intent = new Intent(Intent.ACTION_VIEW,
                                 ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition())));
 
-                        final ImageView image = (ImageView) view.findViewById(R.id.thumbnail);
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                            final ImageView image = (ImageView) view.findViewById(R.id.thumbnail);
 
-                         Bundle bundle = ActivityOptions.makeSceneTransitionAnimation
-                                (ArticleListActivity.this,
-                                        image,
-                                        image.getTransitionName())
-                                 .toBundle();
-                        startActivity(intent, bundle);
+                            Bundle bundle = ActivityOptionsCompat.makeSceneTransitionAnimation
+                                    (ArticleListActivity.this,
+                                            image,
+                                            getResources().getString(R.string.transition_photo)
+                                                    +String.valueOf(vh.getAdapterPosition()))
+                                    .toBundle();
+                            startActivity(intent, bundle);
+                        }
+
+                        else {
+                            startActivity(intent);
+                        }
+
                      /*  final ImageView image = (ImageView) view.findViewById(R.id.photo);
 
                     ActivityOptionsCompat activityOptions =
