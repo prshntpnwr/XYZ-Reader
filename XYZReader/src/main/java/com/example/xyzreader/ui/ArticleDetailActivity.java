@@ -130,18 +130,7 @@ public class ArticleDetailActivity extends AppCompatActivity
                 mSelectedItemId = mStartId;
             }
         }
-        loadDetailWindowTransition();
-    }
-
-    public void loadDetailWindowTransition() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            Slide slide = new Slide(Gravity.BOTTOM);
-            slide.addTarget(R.id.scrollview);
-            slide.setInterpolator(
-                    AnimationUtils.loadInterpolator(this, android.R.interpolator.linear_out_slow_in));
-            slide.setDuration(3000);
-            getWindow().setEnterTransition(slide);
-        }
+        //loadDetailWindowTransition();
     }
 
     @Override

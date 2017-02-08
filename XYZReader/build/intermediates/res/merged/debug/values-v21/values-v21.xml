@@ -12,6 +12,9 @@
         </item>-->
     </style>
     <style name="AppTheme.Main" parent="@style/AppTheme">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowExitTransition">@transition/article_list_exit_transition</item>
+        <item name="android:windowReenterTransition">@transition/article_list_return_transition</item>
     </style>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>

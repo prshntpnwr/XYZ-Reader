@@ -177,6 +177,8 @@ public class ArticleDetailFragment extends Fragment implements
 
         bindViews();
         updateStatusBar();
+
+        loadDetailWindowTransition();
         setSharedAnimation();
 
         return mRootView;
@@ -186,6 +188,17 @@ public class ArticleDetailFragment extends Fragment implements
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
             ViewCompat.setTransitionName(mPhotoView,
                     getResources().getString(R.string.transition_photo) + String.valueOf(mItemPosition));
+        }
+    }
+
+    public void loadDetailWindowTransition() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            Slide slide = new Slide(Gravity.BOTTOM);
+            slide.addTarget(R.id.scrollview);
+            slide.setInterpolator(
+                    AnimationUtils.loadInterpolator(getActivity(), android.R.interpolator.linear_out_slow_in));
+            slide.setDuration(3000);
+            getActivity().getWindow().setEnterTransition(slide);
         }
     }
 
