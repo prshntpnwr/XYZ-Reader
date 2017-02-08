@@ -199,6 +199,13 @@ public class ArticleListActivity extends ActionBarActivity implements
                     ActivityCompat.startActivity(ArticleListActivity.this, intent, activityOptions.toBundle());
                         */
                     }
+                    else {
+                            mTwoPane = true;
+                            getSupportFragmentManager().beginTransaction()
+                                    .replace(R.id.fragment_container, new ArticleDetailFragment()
+                                    .newInstance(getItemId((vh.getAdapterPosition())), getItemCount()))
+                                    .commit();
+                        }
                 }
             });
             return vh;
