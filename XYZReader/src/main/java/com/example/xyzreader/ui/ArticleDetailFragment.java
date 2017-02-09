@@ -139,7 +139,6 @@ public class ArticleDetailFragment extends Fragment implements
 
         /*coordinatorLayout = (CoordinatorLayout)
                 mRootView.findViewById(R.id.draw_insets_frame_layout);
-
         collapsingToolbarLayout = (CollapsingToolbarLayout) mRootView.findViewById(R.id.toolbar_layout);
 */
         toolbar = (Toolbar) mRootView.findViewById(R.id.detail_toolbar);
@@ -242,7 +241,7 @@ public class ArticleDetailFragment extends Fragment implements
                     (int) (Color.blue(mMutedColor) * 0.9));
         }
         mStatusBarColorDrawable.setColor(color);
-         //collapsingToolbarLayout.setBackground(mStatusBarColorDrawable);
+        //collapsingToolbarLayout.setBackground(mStatusBarColorDrawable);
         //coordinatorLayout.setBackground(mStatusBarColorDrawable);
     }
 
@@ -360,7 +359,6 @@ public class ArticleDetailFragment extends Fragment implements
         if (mPhotoContainerView == null || mPhotoView.getHeight() == 0) {
             return Integer.MAX_VALUE;
         }
-
         // account for parallax
         return mIsCard
                 ? (int) mPhotoContainerView.getTranslationY() + mPhotoView.getHeight() - mScrollY

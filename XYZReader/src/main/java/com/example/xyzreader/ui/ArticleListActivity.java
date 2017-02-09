@@ -203,7 +203,7 @@ public class ArticleListActivity extends ActionBarActivity implements
                             mTwoPane = true;
                             getSupportFragmentManager().beginTransaction()
                                     .replace(R.id.fragment_container, new ArticleDetailFragment()
-                                    .newInstance(getItemId((vh.getAdapterPosition())), getItemCount()))
+                                    .newInstance(getItemId((vh.getAdapterPosition())),getItemCount()))
                                     .commit();
                         }
                 }
