@@ -219,7 +219,7 @@ public class ArticleDetailFragment extends Fragment implements
             toolbar.setNavigationOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    ((AppCompatActivity) getActivity()).onBackPressed();
+                    ((AppCompatActivity) getActivity()).supportFinishAfterTransition();
                 }
             });
             toolbar.setTitle("");
@@ -242,7 +242,7 @@ public class ArticleDetailFragment extends Fragment implements
                     (int) (Color.blue(mMutedColor) * 0.9));
         }
         mStatusBarColorDrawable.setColor(color);
-//        collapsingToolbarLayout.setBackground(mStatusBarColorDrawable);
+         //collapsingToolbarLayout.setBackground(mStatusBarColorDrawable);
         //coordinatorLayout.setBackground(mStatusBarColorDrawable);
     }
 
