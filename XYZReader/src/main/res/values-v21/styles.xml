@@ -3,7 +3,8 @@
 
     <style name="AppTheme.Main" parent="@style/AppTheme">
         <item name="android:windowContentTransitions">true</item>
-
+        <item name="android:windowExitTransition">@transition/article_list_exit_transition</item>
+        <item name="android:windowReturnTransition">@transition/article_list_return_transition</item>
     </style>
 
     <style name="AppTheme.Detail">
@@ -15,10 +16,8 @@
         <!-- specify shared element transitions -->
         <item name="android:windowSharedElementEnterTransition">@transition/change_image_transform</item>
         <item name="android:windowSharedElementExitTransition">@transition/change_image_transform</item>
-        <item name="android:windowEnterTransition">@transition/article_list_exit_transition</item>
-        <item name="android:windowReturnTransition">@transition/article_list_return_transition</item>
-
-
+        <item name="android:windowEnterTransition">@transition/detail_window_enter_transition</item>
+        <item name="android:windowReturnTransition">@transition/details_window_return_transition</item>
     </style>
 </resources>
 

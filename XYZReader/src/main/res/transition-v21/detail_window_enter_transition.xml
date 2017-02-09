@@ -11,7 +11,7 @@
 
     <slide android:slideEdge="top">
         <targets>
-            <target android:targetId="@id/detail_toolbar" />
+            <target android:targetId="@id/app_bar" />
         </targets>
     </slide>
 
