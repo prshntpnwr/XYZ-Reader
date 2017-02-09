@@ -2648,10 +2648,6 @@ containing a value of this type.
         public static final int Animation_AppCompat_DropDownUp=0x7f0a008c;
         public static final int AppTheme=0x7f0a008d;
         public static final int AppTheme_AppBarOverlay=0x7f0a008e;
-        /** <item name="android:windowEnterTransition">
-            @transition/detail_window_enter_transition
-        </item>
-         */
         public static final int AppTheme_Detail=0x7f0a0037;
         public static final int AppTheme_Main=0x7f0a0038;
         public static final int AppTheme_PopupOverlay=0x7f0a008f;
