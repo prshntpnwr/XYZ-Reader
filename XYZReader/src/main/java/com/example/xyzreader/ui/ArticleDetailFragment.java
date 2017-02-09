@@ -145,7 +145,7 @@ public class ArticleDetailFragment extends Fragment implements
             public void onClick(View view) {
                 startActivity(Intent.createChooser(ShareCompat.IntentBuilder.from(getActivity())
                         .setType("text/plain")
-                        .setText(XYZREADER_SHARE_HASHTAG + " : " + "\n\n" + title + "\n" + author + "\n\n" + body)
+                        .setText(title + "\n" + author + "\n\n" + body + "\n\n"  + XYZREADER_SHARE_HASHTAG)
                         .getIntent(), getString(R.string.action_share)));
             }
         });
@@ -247,11 +247,17 @@ public class ArticleDetailFragment extends Fragment implements
                     DateUtils.getRelativeTimeSpanString(
                             mCursor.getLong(ArticleLoader.Query.PUBLISHED_DATE),
                             System.currentTimeMillis(), DateUtils.HOUR_IN_MILLIS,
+                            DateUtils.FORMAT_ABBREV_ALL).toString() + " by "
+                            + mCursor.getString(ArticleLoader.Query.AUTHOR)).toString();
+
+            bylineView.setText(Html.fromHtml(
+                    DateUtils.getRelativeTimeSpanString(
+                            mCursor.getLong(ArticleLoader.Query.PUBLISHED_DATE),
+                            System.currentTimeMillis(), DateUtils.HOUR_IN_MILLIS,
                             DateUtils.FORMAT_ABBREV_ALL).toString()
                             + " by <font color='#ffffff'>"
                             + mCursor.getString(ArticleLoader.Query.AUTHOR)
-                            + "</font>").toString();
-            bylineView.setText(author);
+                            + "</font>"));
 
             body = Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY)).toString();
             bodyView.setText(body);
