@@ -1664,3 +1664,4 @@ int transition article_list_exit_transition 0x7f060000
 int transition article_list_return_transition 0x7f060001
 int transition change_image_transform 0x7f060002
 int transition detail_window_enter_transition 0x7f060003
+int transition details_window_return_transition 0x7f060004
