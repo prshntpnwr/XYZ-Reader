@@ -1,19 +1,15 @@
 package com.example.xyzreader.ui;
 
-import android.app.ActivityOptions;
 import android.content.BroadcastReceiver;
-import android.content.ClipData;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.database.Cursor;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
-import android.support.v4.util.Pair;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.RecyclerView;
@@ -41,7 +37,6 @@ public class ArticleListActivity extends ActionBarActivity implements
     public static boolean mTwoPane;
     public static final String TAG = ArticleDetailActivity.class.getSimpleName();
 
-    //private Toolbar mToolbar;
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private RecyclerView mRecyclerView;
 
@@ -49,11 +44,6 @@ public class ArticleListActivity extends ActionBarActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_article_list);
-
-        //mToolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(mToolbar);
-
-        //final View toolbarContainerView = findViewById(R.id.toolbar_container);
 
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
 
@@ -68,25 +58,6 @@ public class ArticleListActivity extends ActionBarActivity implements
         if (savedInstanceState == null) {
             refresh();
         }
-      /* if (null != toolbarContainerView) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-                mRecyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
-                    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
-                    @Override
-                    public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-                        super.onScrolled(recyclerView, dx, dy);
-                        int max = toolbarContainerView.getHeight();
-                        if (dy > 0) {
-                            toolbarContainerView.setTranslationY(Math.max(-max, toolbarContainerView
-                                    .getTranslationY() - dy / 2));
-                        } else {
-                            toolbarContainerView.setTranslationY(Math.min(0, toolbarContainerView
-                                    .getTranslationY() - dy / 2));
-                        }
-                    }
-                });
-            }
-        }*/
 
     }
 
@@ -191,13 +162,6 @@ public class ArticleListActivity extends ActionBarActivity implements
                             startActivity(intent);
                         }
 
-                     /*  final ImageView image = (ImageView) view.findViewById(R.id.photo);
-
-                    ActivityOptionsCompat activityOptions =
-                            ActivityOptionsCompat.makeSceneTransitionAnimation(ArticleListActivity.this,
-                                    new Pair<View, String>(vh.thumbnailView, getString(R.string.transition_photo)));
-                    ActivityCompat.startActivity(ArticleListActivity.this, intent, activityOptions.toBundle());
-                        */
                     }
                     else {
                             mTwoPane = true;
@@ -210,11 +174,6 @@ public class ArticleListActivity extends ActionBarActivity implements
             });
             return vh;
         }
-
-     /*  @Override
-        public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            return null;
-        }*/
 
         @Override
         public void onBindViewHolder(ViewHolder holder, int position) {
