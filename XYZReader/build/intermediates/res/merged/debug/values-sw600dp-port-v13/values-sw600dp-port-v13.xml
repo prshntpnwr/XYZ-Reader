@@ -20,6 +20,6 @@
     <dimen name="material_layout_app_bar_space_negative">-136dp</dimen>
     <dimen name="material_logo_spacing">8dp</dimen>
     <dimen name="max_width">760dp</dimen>
-    <item format="float" name="detail_body_line_spacing_multiplier" type="fraction">1.3</item>
+    <item format="float" name="detail_body_line_spacing_multiplier" type="fraction">1.1</item>
     <integer name="list_column_count">3</integer>
 </resources>

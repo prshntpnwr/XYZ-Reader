@@ -2490,7 +2490,7 @@ containing a value of this type.
         public static final int scrollView=0x7f0e004c;
         public static final int scrollable=0x7f0e0039;
         public static final int scrollview=0x7f0e007d;
-        public static final int scrollview_linear_layout=0x7f0e007e;
+        public static final int scrollview_linear_layoutut=0x7f0e007e;
         public static final int search_badge=0x7f0e005e;
         public static final int search_bar=0x7f0e005d;
         public static final int search_button=0x7f0e005f;
