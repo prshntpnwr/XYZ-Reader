@@ -71,6 +71,11 @@ public class ArticleDetailFragment extends Fragment implements
     private Toolbar toolbar;
     private int mItemPosition;
 
+    private static final String XYZREADER_SHARE_HASHTAG = " #XYZReaderApp";
+    private String title = "";
+    private String author = "";
+    private String body = "";
+
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
@@ -133,12 +138,14 @@ public class ArticleDetailFragment extends Fragment implements
 
         mStatusBarColorDrawable = new ColorDrawable(0);
 
+        bindViews();
+
         mRootView.findViewById(R.id.share_fab).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(Intent.createChooser(ShareCompat.IntentBuilder.from(getActivity())
                         .setType("text/plain")
-                        .setText("Some Text")
+                        .setText(XYZREADER_SHARE_HASHTAG + " : " + "\n\n" + title + "\n" + author + "\n\n" + body)
                         .getIntent(), getString(R.string.action_share)));
             }
         });
@@ -147,7 +154,6 @@ public class ArticleDetailFragment extends Fragment implements
             setupToolbar();
         }
 
-        bindViews();
         updateStatusBar();
         setSharedAnimation();
         loadDetailWindowTransition();
@@ -233,16 +239,23 @@ public class ArticleDetailFragment extends Fragment implements
             mRootView.setAlpha(0);
             mRootView.setVisibility(View.VISIBLE);
             mRootView.animate().alpha(1);
-            titleView.setText(mCursor.getString(ArticleLoader.Query.TITLE));
-            bylineView.setText(Html.fromHtml(
+
+            title = mCursor.getString(ArticleLoader.Query.TITLE);
+            titleView.setText(title);
+
+            author  = Html.fromHtml(
                     DateUtils.getRelativeTimeSpanString(
                             mCursor.getLong(ArticleLoader.Query.PUBLISHED_DATE),
                             System.currentTimeMillis(), DateUtils.HOUR_IN_MILLIS,
                             DateUtils.FORMAT_ABBREV_ALL).toString()
                             + " by <font color='#ffffff'>"
                             + mCursor.getString(ArticleLoader.Query.AUTHOR)
-                            + "</font>"));
-            bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY)));
+                            + "</font>").toString();
+            bylineView.setText(author);
+
+            body = Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY)).toString();
+            bodyView.setText(body);
+
             ImageLoaderHelper.getInstance(getActivity()).getImageLoader()
                     .get(mCursor.getString(ArticleLoader.Query.PHOTO_URL), new ImageLoader.ImageListener() {
                         @Override
