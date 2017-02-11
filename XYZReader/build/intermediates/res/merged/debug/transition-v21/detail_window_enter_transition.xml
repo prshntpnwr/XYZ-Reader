@@ -20,4 +20,12 @@
             <target android:targetId="@id/scrollview" />
         </targets>
     </slide>
+
+    <slide android:slideEdge="bottom"
+        android:duration="3000">
+        <targets>
+            <target android:targetId="@id/share_fab" />
+        </targets>
+    </slide>
+
 </transitionSet>
