@@ -21,8 +21,7 @@
         </targets>
     </slide>
 
-    <slide android:slideEdge="bottom"
-        android:duration="3000">
+    <slide android:slideEdge="bottom">
         <targets>
             <target android:targetId="@id/share_fab" />
         </targets>
