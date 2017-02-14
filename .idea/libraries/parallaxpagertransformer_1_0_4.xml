@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="parallaxpagertransformer-1.0.4">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/XYZReader/build/intermediates/exploded-aar/com.xgc1986.android/parallaxpagertransformer/1.0.4/res" />
+      <root url="jar://$PROJECT_DIR$/XYZReader/build/intermediates/exploded-aar/com.xgc1986.android/parallaxpagertransformer/1.0.4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.xgc1986.android/parallaxpagertransformer/1.0.4/97aaf1e460c5b395ffc82a5a7d9da02e74bd3e87/parallaxpagertransformer-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

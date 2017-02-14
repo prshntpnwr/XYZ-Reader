@@ -2269,18 +2269,20 @@ containing a value of this type.
         public static final int detail_metabar_title_bottom_padding=0x7f09001d;
         public static final int detail_metabar_vert_padding=0x7f09001e;
         public static final int detail_photo_height=0x7f090006;
+        public static final int detail_title_bottom_margin=0x7f09007c;
         public static final int detail_title_text_size=0x7f090019;
-        public static final int disabled_alpha_material_dark=0x7f09007c;
-        public static final int disabled_alpha_material_light=0x7f09007d;
-        public static final int expanded_toolbar_height=0x7f09007e;
-        public static final int expanded_toolbar_title_margin_bottom=0x7f09007f;
-        public static final int fab_elevation=0x7f090080;
+        public static final int detail_toolbar_margin=0x7f09007d;
+        public static final int disabled_alpha_material_dark=0x7f09007e;
+        public static final int disabled_alpha_material_light=0x7f09007f;
+        public static final int expanded_toolbar_height=0x7f090080;
+        public static final int expanded_toolbar_title_margin_bottom=0x7f090081;
+        public static final int fab_elevation=0x7f090082;
         public static final int fab_margin=0x7f090007;
-        public static final int fab_press_translation_z=0x7f090081;
-        public static final int highlight_alpha_material_colored=0x7f090082;
-        public static final int highlight_alpha_material_dark=0x7f090083;
-        public static final int highlight_alpha_material_light=0x7f090084;
-        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f090085;
+        public static final int fab_press_translation_z=0x7f090083;
+        public static final int highlight_alpha_material_colored=0x7f090084;
+        public static final int highlight_alpha_material_dark=0x7f090085;
+        public static final int highlight_alpha_material_light=0x7f090086;
+        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f090087;
         public static final int list_side_margin=0x7f09002c;
         public static final int list_toolbar_side_margin=0x7f09002d;
         public static final int material_cards_padding=0x7f09001a;
@@ -2289,9 +2291,9 @@ containing a value of this type.
         public static final int material_layout_app_bar_space_negative=0x7f090009;
         public static final int material_logo_spacing=0x7f09000a;
         public static final int max_width=0x7f09000b;
-        public static final int notification_large_icon_height=0x7f090086;
-        public static final int notification_large_icon_width=0x7f090087;
-        public static final int notification_subtext_size=0x7f090088;
+        public static final int notification_large_icon_height=0x7f090088;
+        public static final int notification_large_icon_width=0x7f090089;
+        public static final int notification_subtext_size=0x7f09008a;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
