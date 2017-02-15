@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_bar_height">176dp</dimen>
+    <dimen name="detail_body_bottom_margin">96dp</dimen>
+    <dimen name="detail_body_text_size">32sp</dimen>
+    <dimen name="detail_byline_text_size">22sp</dimen>
+    <dimen name="detail_card_top_margin">384dp</dimen>
+    <dimen name="detail_inner_horiz_margin">64dp</dimen>
+    <dimen name="detail_inner_horizontal_margin">64dp</dimen>
+    <dimen name="detail_metabar_title_bottom_padding">8dp</dimen>
+    <dimen name="detail_metabar_vert_padding">32dp</dimen>
+    <dimen name="detail_photo_height">384dp</dimen>
+    <dimen name="detail_title_text_size">42sp</dimen>
+    <dimen name="fab_margin">32dp</dimen>
+    <dimen name="material_cards_padding">8dp</dimen>
+    <dimen name="material_component_cards_space_between_cards">8dp</dimen>
+    <dimen name="material_layout_app_bar_height">480dp</dimen>
+    <dimen name="material_layout_app_bar_space_negative">-136dp</dimen>
+    <dimen name="material_logo_spacing">8dp</dimen>
+    <dimen name="max_width">760dp</dimen>
+    <item format="float" name="detail_body_line_spacing_multiplier" type="fraction">1.1</item>
+    <integer name="list_column_count">3</integer>
+</resources>

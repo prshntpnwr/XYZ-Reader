@@ -35,7 +35,7 @@
                 android:contentDescription="@string/detail_image"/>
 
             <android.support.v7.widget.Toolbar
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="@dimen/detail_toolbar_margin"
                 android:id="@+id/detail_toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
