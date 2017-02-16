@@ -32,11 +32,11 @@
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 651,
+                        "startOffset": 911,
                         "endColumn": 46,
-                        "endOffset": 693
+                        "endOffset": 953
                     }
                 }
             },
@@ -45,17 +45,17 @@
                     "startLine": 4,
                     "startColumn": 4,
                     "startOffset": 146,
-                    "endColumn": 52,
-                    "endOffset": 194
+                    "endColumn": 57,
+                    "endOffset": 199
                 },
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 385,
-                        "endColumn": 52,
-                        "endOffset": 433
+                        "startOffset": 695,
+                        "endColumn": 57,
+                        "endOffset": 748
                     }
                 }
             },
@@ -63,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 199,
-                    "endColumn": 54,
-                    "endOffset": 249
+                    "startOffset": 204,
+                    "endColumn": 52,
+                    "endOffset": 252
                 },
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 438,
-                        "endColumn": 54,
-                        "endOffset": 488
+                        "startOffset": 587,
+                        "endColumn": 52,
+                        "endOffset": 635
                     }
                 }
             },
@@ -82,9 +82,28 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 254,
+                    "startOffset": 257,
                     "endColumn": 54,
-                    "endOffset": 304
+                    "endOffset": 307
+                },
+                "from": {
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 640,
+                        "endColumn": 54,
+                        "endOffset": 690
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 312,
+                    "endColumn": 54,
+                    "endOffset": 362
                 },
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/macro_layout.xml",
@@ -99,30 +118,49 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 309,
-                    "endColumn": 61,
-                    "endOffset": 366
+                    "startOffset": 367,
+                    "endColumn": 60,
+                    "endOffset": 423
                 },
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 589,
-                        "endColumn": 61,
-                        "endOffset": 646
+                        "startOffset": 959,
+                        "endColumn": 60,
+                        "endOffset": 1015
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 371,
+                    "startOffset": 428,
+                    "endColumn": 61,
+                    "endOffset": 485
+                },
+                "from": {
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 849,
+                        "endColumn": 61,
+                        "endOffset": 906
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 490,
                     "endColumn": 51,
-                    "endOffset": 418
+                    "endOffset": 537
                 },
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/macro_layout.xml",
@@ -137,49 +175,49 @@
             },
             {
                 "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 423,
-                    "endColumn": 53,
-                    "endOffset": 472
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 331,
-                        "endColumn": 53,
-                        "endOffset": 380
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 477,
-                    "endColumn": 41,
-                    "endOffset": 514
-                },
-                "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 714,
-                        "endColumn": 41,
-                        "endOffset": 751
-                    }
-                }
-            },
-            {
-                "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 519,
+                    "startOffset": 542,
+                    "endColumn": 53,
+                    "endOffset": 591
+                },
+                "from": {
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 533,
+                        "endColumn": 53,
+                        "endOffset": 582
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 596,
+                    "endColumn": 41,
+                    "endOffset": 633
+                },
+                "from": {
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1036,
+                        "endColumn": 41,
+                        "endOffset": 1073
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 638,
                     "endColumn": 52,
-                    "endOffset": 567
+                    "endOffset": 686
                 },
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
@@ -194,11 +232,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 572,
+                    "startOffset": 691,
                     "endColumn": 74,
-                    "endOffset": 642
+                    "endOffset": 761
                 },
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
@@ -213,11 +251,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 647,
-                    "endColumn": 70,
-                    "endOffset": 713
+                    "startOffset": 766,
+                    "endColumn": 65,
+                    "endOffset": 827
                 },
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
@@ -225,18 +263,37 @@
                         "startLine": 6,
                         "startColumn": 4,
                         "startOffset": 239,
-                        "endColumn": 70,
-                        "endOffset": 305
+                        "endColumn": 65,
+                        "endOffset": 300
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 718,
+                    "startOffset": 832,
+                    "endColumn": 70,
+                    "endOffset": 898
+                },
+                "from": {
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 441,
+                        "endColumn": 70,
+                        "endOffset": 507
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 903,
                     "endColumn": 51,
-                    "endOffset": 765
+                    "endOffset": 950
                 },
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
@@ -251,11 +308,49 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 770,
+                    "startOffset": 955,
+                    "endColumn": 69,
+                    "endOffset": 1020
+                },
+                "from": {
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 370,
+                        "endColumn": 69,
+                        "endOffset": 435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1025,
+                    "endColumn": 64,
+                    "endOffset": 1085
+                },
+                "from": {
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 305,
+                        "endColumn": 64,
+                        "endOffset": 365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1090,
                     "endColumn": 41,
-                    "endOffset": 807
+                    "endOffset": 1127
                 },
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
@@ -270,30 +365,30 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 812,
+                    "startOffset": 1132,
                     "endColumn": 94,
-                    "endOffset": 902
+                    "endOffset": 1222
                 },
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/dimens.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 493,
+                        "startOffset": 753,
                         "endColumn": 94,
-                        "endOffset": 583
+                        "endOffset": 843
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 907,
+                    "startOffset": 1227,
                     "endColumn": 49,
-                    "endOffset": 952
+                    "endOffset": 1272
                 },
                 "from": {
                     "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-sw600dp-land/macro_layout.xml",
