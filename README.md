@@ -6,4 +6,4 @@ Transformed the user experience of news reading using Material Design principles
 
 <img width="40%" src="/art/article_list_main.png" />  <img width="40%" src="/art/detail_article.png" />
 
-<img width="40%" src="/art/detail_article_land.png" />
+<img width="60%" src="/art/detail_article_land.png" />
