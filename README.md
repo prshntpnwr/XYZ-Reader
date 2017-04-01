@@ -1,4 +1,5 @@
-##XYZ-Reader
+
+#XYZ-Reader
 
 [![GitHub license](https://img.shields.io/crates/l/rustc-serialize.svg)](https://github.com/prshntpnwr/XYZ-Reader/blob/master/LICENSE.txt)
 
