@@ -1,4 +1,4 @@
-#Go-Ubiquitous
+#XYZ-Reader
 
 This Repository contain fifth project in Udacity's Android Developer Nanodegree.
 
