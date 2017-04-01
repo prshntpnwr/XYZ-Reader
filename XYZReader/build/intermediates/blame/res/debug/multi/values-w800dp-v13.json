@@ -11,7 +11,14 @@
                     "endOffset": 104
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-w800dp/macro_layout.xml"
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-w800dp/macro_layout.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 232,
+                        "endColumn": 53,
+                        "endOffset": 281
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 152
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-w800dp/macro_layout.xml"
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-w800dp/macro_layout.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 34,
+                        "endColumn": 47,
+                        "endOffset": 77
+                    }
                 }
             },
             {
@@ -35,7 +49,14 @@
                     "endOffset": 208
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-w800dp/macro_layout.xml"
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-w800dp/macro_layout.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 82,
+                        "endColumn": 55,
+                        "endOffset": 133
+                    }
                 }
             },
             {
@@ -47,7 +68,14 @@
                     "endOffset": 250
                 },
                 "from": {
-                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-w800dp/dimens.xml"
+                    "file": "/home/prashant/Documents/AndroidStudioProjects_folder/XYZ-Reader/XYZReader/src/main/res/values-w800dp/dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 41,
+                        "endOffset": 92
+                    }
                 }
             },
             {
